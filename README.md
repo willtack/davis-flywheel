@@ -1,3 +1,3 @@
 # davis-flywheel
 
-Repository for sharing code related to Flywheel projects
+Repository for sharing code related to Flywheel projects.
