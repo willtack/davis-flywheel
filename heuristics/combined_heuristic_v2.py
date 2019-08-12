@@ -77,23 +77,28 @@ def infotodict(seqinfo):
             binder_run2:[], verbgen_run1: [], verbgen_run2: [], rest: [], asl: [],
             m0: [], mean_perf: [], b0_phase: [], b0_mag: []}
 
+# sometimes patients struggle with a task the first time around (or something
+# else goes wrong and often some tasks are repeated. This function accomodates
+# the variable number of task runs
     def get_both_series(key1, key2, s):
-        if len(info[key1]) == 0:
-            info[key1].append(s.series_id)
-        else:
-            info[key2].append(s.series_id)
+         if len(info[key1]) == 0:
+             info[key1].append(s.series_id)
+         else:
+             info[key2].append(s.series_id)
 
-    def get_latest_series(key, s):
+# this doesn't need to be a function but using it anyway for aesthetic symmetry
+# with above function
+    def get_series(key, s):
             info[key].append(s.series_id)
 
     for s in seqinfo:
         protocol = s.protocol_name.lower()
         if any(id in protocol for id in ["t1w", "t1", "mprage_t"]):
-            get_latest_series(t1w,s)
+            get_series(t1w,s)
         elif "flair" in protocol:
-            get_latest_series(flair,s)
+            get_series(flair,s)
         elif any(id in protocol for id in ["t2w", "t2"]):
-            get_latest_series(t2w,s)
+            get_series(t2w,s)
         elif "object" in protocol:
             get_both_series(object_run1,object_run2,s)
         elif "rhyming" in protocol:
@@ -109,17 +114,17 @@ def infotodict(seqinfo):
         elif "verbgen" in protocol:
             get_both_series(verbgen_run1, verbgen_run2,s)
         elif "rest" in protocol:
-            get_latest_series(rest,s)
+            get_series(rest,s)
         elif "spiral" in protocol:
             if s.series_description.endswith("_ASL"):
-                get_latest_series(asl,s)
+                get_series(asl,s)
             elif s.series_description.endswith("_M0"):
-                get_latest_series(m0,s)
+                get_series(m0,s)
         elif "b0map" in protocol:
                 if "P" in s.image_type:
-                    get_latest_series(b0_phase,s)
+                    get_series(b0_phase,s)
                 elif "M" in s.image_type:
-                    get_latest_series(b0_mag,s)
+                    get_series(b0_mag,s)
 
     return info
 
