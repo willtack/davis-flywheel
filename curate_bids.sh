@@ -38,5 +38,5 @@ if [[ ${execute} == true ]]; then
 	cat "$@" | xargs -n1 -i fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject {} --verbose
 else
 	echo "Starting a dry run for ${project} with the following heuristic: ${heuristic}"
-	cat "$@" | xargs -n1 -i fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject {} --verbose -dry_run
+	cat "$@" | xargs -n1 -i fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject {} --verbose --dry_run
 fi
