@@ -3,8 +3,9 @@
 # Loop fw-heudiconv from command line over a list of subjects (line-separated text file)
 # Specify -x to override dry_run
 #
+#	Will Tackett
+# October 10th, 2019
 #
-
 
 cmd=$(basename "$0")
 syntax="$cmd [-x no dry_run]{p Project}{-h heuristic} [Subjects]"
