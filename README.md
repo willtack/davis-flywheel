@@ -1,3 +1,3 @@
-# davis-flywheel
+# presurgicalEpilepsy
 
-Repository for sharing code related to Flywheel projects.
+Repository for sharing code related to the presurgicalEpilepsy Flywheel project
