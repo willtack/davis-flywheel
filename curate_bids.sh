@@ -21,7 +21,7 @@ while getopts “xp:h:” opt; do
   case $opt in
     x ) execute=true ;;
     p ) project=$OPTARG ;;
-		h ) heuristic=$OPTARG ;;
+    h ) heuristic=$OPTARG ;;
    \? ) error_exit "Invalid option: $OPTARG";;
     : ) error_exit "Invalid option: $OPTARG requires an argument";;
   esac
