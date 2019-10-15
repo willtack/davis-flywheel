@@ -8,7 +8,7 @@
 #
 
 cmd=$(basename "$0")
-syntax="$cmd [-x no dry_run]{p Project}{-h heuristic} [Subjects]"
+syntax="$cmd [-x]{p Project}{-h heuristic} [Subjects]"
 
 error_exit()
 {
