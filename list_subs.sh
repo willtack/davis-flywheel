@@ -12,6 +12,10 @@
 min=$1;
 max=$2;
 while [ "$min" -le "$max" ]; do
-	echo "$4$min" >> $3
+	if [ "$min" -lt 10 ]; then
+	   echo "$4"0"$min" >> $3
+	else
+	   echo "$4$min" >> $3
+	fi
 	min=`expr "$min" + 1`;
 done
