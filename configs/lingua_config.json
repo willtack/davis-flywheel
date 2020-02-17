@@ -1,0 +1,7 @@
+{
+  "AROMA": true,
+  "light_output": false,
+  "fwhm": 8,
+  "cluster_size_thresh": 150,
+  "alpha": 0.10
+  }

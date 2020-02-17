@@ -13,6 +13,8 @@ min=$1;
 max=$2;
 while [ "$min" -le "$max" ]; do
 	if [ "$min" -lt 10 ]; then
+	   echo "$4"00"$min" >> $3
+	elif [ "$min" -lt 100 ]; then
 	   echo "$4"0"$min" >> $3
 	else
 	   echo "$4$min" >> $3
