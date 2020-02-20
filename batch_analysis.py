@@ -7,6 +7,7 @@
 import flywheel
 import json
 import argparse
+import datetime
 
 # Create client, define project
 fw = flywheel.Client()
@@ -26,12 +27,20 @@ parser.add_argument(
         help="path to text file containing list of subjects",
         required=True
         )
+parser.add_argument(
+        "--label",
+        help="label to attach to analysis container",
+        required=False
+)
 
 args = parser.parse_args()
 config = args.config
 subject_list = args.subs
+analysis_label = args.label
 
-
+# set date for label
+x = datetime.datetime.now()
+date_str = '%s-%s-%s %s:%s' % (x.month, x.day, x.year, x.hour, x.minute)
 
 # Define containers & files
 xcpgear = fw.lookup('gears/xcpengine-fw')
@@ -47,6 +56,10 @@ with open(config) as f:
 slabel_list = [line.rstrip('\n').split()[0] for line in open(subject_list)]
 
 def run_xcp(configuration):
+    if analysis_label is None:
+        label='xcp ' + date_str
+    else:
+        label = analysis_label
     for sub in slabel_list:
         print('Trying subject %s' % (sub))
         subject_container = fw.lookup('davis/presurgicalEpilepsy/%s' % (sub))
@@ -56,18 +69,26 @@ def run_xcp(configuration):
                     fprep_output = [f for f in a.files if 'fmriprep' in f.name]
             # set inputs and config for gear
             inputs = {'designfile': design_file, 'fmriprepdir': fprep_output[0]}
-            analysis_id = xcpgear.run(analysis_label='WT_xcp', config=configuration, inputs=inputs, destination=ses)
+            analysis_id = xcpgear.run(analysis_label=label, config=configuration, inputs=inputs, destination=ses)
 
 def run_fmriprep(configuration):
+    if analysis_label is None:
+        label='fmriprep ' + date_str
+    else:
+        label = analysis_label
     for sub in slabel_list:
         print('Trying subject %s' % (sub))
         subject_container = fw.lookup('davis/presurgicalEpilepsy/%s' % (sub))
         for ses in subject_container.sessions():
             # set inputs and config for gear
             inputs = {'freesurfer_license': license_file}
-            analysis_id = fmriprepgear.run(analysis_label='WT_fmriprep', config=configuration, inputs=inputs, destination=ses)
+            analysis_id = fmriprepgear.run(analysis_label=label, config=configuration, inputs=inputs, destination=ses)
 
 def run_lingua_map(configuration):
+    if analysis_label is None:
+        label='lingua-map ' + date_str
+    else:
+        label = analysis_label
     for sub in slabel_list:
         print('Running analysis for subject %s' % (sub))
         subject_container = fw.lookup('davis/presurgicalEpilepsy/%s' % (sub))
@@ -98,7 +119,7 @@ def run_lingua_map(configuration):
             if fprep is not None and bold_img is not None and not alreadydone:
                 print(' Running analysis for %s' % (sub))
                 inputs = {'fmriprepdir': fmriprepdir }
-                #analysis_id = linguagear.run(analysis_label='lingua-map', config=configuration, inputs=inputs, destination=ses)
+                analysis_id = linguagear.run(analysis_label=label, config=configuration, inputs=inputs, destination=ses)
 
 if "xcp" in config:
     run_xcp(config_dict)
