@@ -32,11 +32,20 @@ shift $((OPTIND -1))
 if [ -z $project ]; then error_exit "You must specify a project"; fi
 if [ -z $heuristic ]; then error_exit "You must provide a heuristic"; fi
 
-
+logFile=fwheudiconv-logs-$(date +"%m-%d-%y").log
+touch "${logFile}"
 if [[ ${execute} == true ]]; then
-	echo "Curating ${project} with the following heuristic: ${heuristic}"
-	cat "$@" | xargs -n1 -i fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject {} --verbose
+	 echo "Curating ${project} with the following heuristic: ${heuristic}"
+	 cat "$@" | while read sub; do
+		 fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject "$sub" --verbose 2
+	 done 2>&1 | tee -a ${logFile}
 else
-	echo "Starting a dry run for ${project} with the following heuristic: ${heuristic}"
-	cat "$@" | xargs -n1 -i fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject {} --verbose --dry_run
+	 echo "Starting a dry run for ${project} with the following heuristic: ${heuristic}"
+   cat "$@" | while read sub; do
+		 fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject "$sub" --verbose --dry_run
+   done 2>&1 | tee -a ${logFile}
 fi
+
+fw upload davis/${project} "${logFile}"
+
+exit 0
