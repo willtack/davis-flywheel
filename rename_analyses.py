@@ -7,6 +7,7 @@
 import flywheel
 import json
 import argparse
+import re
 
 # Create client, define project
 fw = flywheel.Client()
@@ -35,8 +36,8 @@ parser.add_argument(
 args = parser.parse_args()
 finder = args.finder
 newlabel = args.newlabel
-
 subject_list = args.subs
+
 if subject_list is not None:
     slabel_list = [line.rstrip('\n').split()[0] for line in open(subject_list)]
 else:
@@ -48,10 +49,14 @@ else:
 for sub in slabel_list:
     subject_container = fw.lookup('davis/presurgicalEpilepsy/%s' % (sub))
     for ses_container in subject_container.sessions():
-        if len(ses_container.analyses) > 0:
-            for a in ses_container.analyses:
+        ses = fw.get(ses_container.id)
+        if ses.analyses is not None: # and len(ses_container.analyses) > 0:
+            for a in ses.analyses:
                 if finder in a.label:
-                    print(newlabel)
-                    #a.update(label=newlabel)
+                    if "<date>" in newlabel:
+                        date_str = str(a.created).split()[0]
+                        newlabel = re.sub('<date>',date_str, newlabel)
+                    print('Renaming {} for {} to {}'.format(a.label, subject_container.label, newlabel))
+                    a.update(label=newlabel)
         else:
             print("Session does not have analyses.")
