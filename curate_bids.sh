@@ -37,7 +37,7 @@ touch "${logFile}"
 if [[ ${execute} == true ]]; then
 	 echo "Curating ${project} with the following heuristic: ${heuristic}"
 	 cat "$@" | while read sub; do
-		 fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject "$sub" --verbose 2
+		 fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject "$sub" --verbose 
 	 done 2>&1 | tee -a ${logFile}
 else
 	 echo "Starting a dry run for ${project} with the following heuristic: ${heuristic}"

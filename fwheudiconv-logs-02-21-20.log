@@ -1,0 +1,2738 @@
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba71ef546b6002cefa158)
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba71ef546b6002bef3c38)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba71ef546b60029ef146f)
+
+INFO: Loading heuristic file...
+INFO: Applying heuristic to query results...
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz'], ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan', ('nii.gz',), None): ['{session}/asl/sub-{subject}_{session}_asl.nii.gz']})
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P001_ses-01_T1w.nii.gz -> sub-P001/ses-01/anat/sub-P001_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_10.nii.gz
+	sub-P001_ses-01_task-rest_bold.nii.gz -> sub-P001/ses-01/func/sub-P001_ses-01_task-rest_bold.nii.gz
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba687f546b60028ef14fa)
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba687f546b60039f0a45c)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba687f546b6002af04c9a)
+
+INFO: Loading heuristic file...
+INFO: Applying heuristic to query results...
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz'], ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan', ('nii.gz',), None): ['{session}/asl/sub-{subject}_{session}_asl.nii.gz']})
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P002_ses-01_T1w.nii.gz -> sub-P002/ses-01/anat/sub-P002_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_10.nii.gz
+	sub-P002_ses-01_task-rest_bold.nii.gz -> sub-P002/ses-01/func/sub-P002_ses-01_task-rest_bold.nii.gz
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba63ef546b6002af04c95)
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba63ef546b6002cefa14e)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba63ef546b60029ef146a)
+
+INFO: Loading heuristic file...
+INFO: Applying heuristic to query results...
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz'], ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan', ('nii.gz',), None): ['{session}/asl/sub-{subject}_{session}_asl.nii.gz']})
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P003_ses-01_T1w.nii.gz -> sub-P003/ses-01/anat/sub-P003_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_10.nii.gz
+	sub-P003_ses-01_task-rest_bold.nii.gz -> sub-P003/ses-01/func/sub-P003_ses-01_task-rest_bold.nii.gz
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba526f546b6002af04c84)
+	ses-02 (5caba593f546b6002af04c88)
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba526f546b6002cefa140)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba526f546b60039f0a43b)
+
+	HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5caba593f546b60039f0a441)
+
+	t2_tse_CORONAL_HIPPO_flip120: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba593f546b60039f0a442)
+
+	HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba593f546b6002cefa142)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d406c66ebd2e95380484f58)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d406c70ebd2e95380485067)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 1904, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d406d25ebd2e95380487728)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d406df1ebd2e9538048ae7c)
+
+INFO: Loading heuristic file...
+INFO: Applying heuristic to query results...
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz'], ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan', ('nii.gz',), None): ['{session}/asl/sub-{subject}_{session}_asl.nii.gz']})
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+DEBUG: 
+HCP_T1_2.nii.gz
+	sub-P004_ses-02_T1w.nii.gz -> sub-P004/ses-02/anat/sub-P004_ses-02_T1w.nii.gz
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P004_ses-01_T1w.nii.gz -> sub-P004/ses-01/anat/sub-P004_ses-01_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_flip120_4.nii.gz
+	sub-P004_ses-02_T2w.nii.gz -> sub-P004/ses-02/anat/sub-P004_ses-02_T2w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_10.nii.gz
+	sub-P004_ses-01_task-rest_bold.nii.gz -> sub-P004/ses-01/func/sub-P004_ses-01_task-rest_bold.nii.gz
+DEBUG: 
+HCP_restBOLD_8.nii.gz
+	sub-P004_ses-02_task-rest_bold.nii.gz -> sub-P004/ses-02/func/sub-P004_ses-02_task-rest_bold.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_ASL.nii.gz
+	sub-P004_ses-02_asl.nii.gz -> sub-P004/ses-02/asl/sub-P004_ses-02_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_ASL.nii.gz
+	sub-P004_ses-02_asl.nii.gz -> sub-P004/ses-02/asl/sub-P004_ses-02_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_M0.nii.gz
+	sub-P004_ses-02_MZeroScan.nii.gz -> sub-P004/ses-02/asl/sub-P004_ses-02_MZeroScan.nii.gz
+DEBUG: sub-P004_ses-02_MZeroScan.nii.gz IntendedFor: ['ses-02/asl/sub-P004_ses-02_asl.nii.gz']
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_M0.nii.gz
+	sub-P004_ses-02_MZeroScan.nii.gz -> sub-P004/ses-02/asl/sub-P004_ses-02_MZeroScan.nii.gz
+DEBUG: sub-P004_ses-02_MZeroScan.nii.gz IntendedFor: ['ses-02/asl/sub-P004_ses-02_asl.nii.gz']
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba4e0f546b60039f0a436)
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba4e0f546b60026ef0383)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba4e0f546b6002cefa13d)
+
+INFO: Loading heuristic file...
+INFO: Applying heuristic to query results...
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz'], ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan', ('nii.gz',), None): ['{session}/asl/sub-{subject}_{session}_asl.nii.gz']})
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P005_ses-01_T1w.nii.gz -> sub-P005/ses-01/anat/sub-P005_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_7.nii.gz
+	sub-P005_ses-01_task-rest_bold.nii.gz -> sub-P005/ses-01/func/sub-P005_ses-01_task-rest_bold.nii.gz
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba4abf546b6002af04c7a)
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba4abf546b6002af04c7b)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba4abf546b60039f0a432)
+
+INFO: Loading heuristic file...
+INFO: Applying heuristic to query results...
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz'], ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan', ('nii.gz',), None): ['{session}/asl/sub-{subject}_{session}_asl.nii.gz']})
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P006_ses-01_T1w.nii.gz -> sub-P006/ses-01/anat/sub-P006_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_11.nii.gz
+	sub-P006_ses-01_task-rest_bold.nii.gz -> sub-P006/ses-01/func/sub-P006_ses-01_task-rest_bold.nii.gz
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba42ef546b60029ef1463)
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba42ef546b6002af04c72)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba42ef546b6002af04c73)
+
+INFO: Loading heuristic file...
+INFO: Applying heuristic to query results...
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz'], ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan', ('nii.gz',), None): ['{session}/asl/sub-{subject}_{session}_asl.nii.gz']})
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P007_ses-01_T1w.nii.gz -> sub-P007/ses-01/anat/sub-P007_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_9.nii.gz
+	sub-P007_ses-01_task-rest_bold.nii.gz -> sub-P007/ses-01/func/sub-P007_ses-01_task-rest_bold.nii.gz
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+usage: fw-heudiconv-curate [-h] --project PROJECT [PROJECT ...] --heuristic
+                           HEURISTIC [--subject SUBJECT [SUBJECT ...]]
+                           [--session SESSION [SESSION ...]] [--verbose]
+                           [--dry_run]
+fw-heudiconv-curate: error: unrecognized arguments: 2
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+usage: fw-heudiconv-curate [-h] --project PROJECT [PROJECT ...] --heuristic
+                           HEURISTIC [--subject SUBJECT [SUBJECT ...]]
+                           [--session SESSION [SESSION ...]] [--verbose]
+                           [--dry_run]
+fw-heudiconv-curate: error: unrecognized arguments: 2
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+usage: fw-heudiconv-curate [-h] --project PROJECT [PROJECT ...] --heuristic
+                           HEURISTIC [--subject SUBJECT [SUBJECT ...]]
+                           [--session SESSION [SESSION ...]] [--verbose]
+                           [--dry_run]
+fw-heudiconv-curate: error: unrecognized arguments: 2
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+usage: fw-heudiconv-curate [-h] --project PROJECT [PROJECT ...] --heuristic
+                           HEURISTIC [--subject SUBJECT [SUBJECT ...]]
+                           [--session SESSION [SESSION ...]] [--verbose]
+                           [--dry_run]
+fw-heudiconv-curate: error: unrecognized arguments: 2
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+usage: fw-heudiconv-curate [-h] --project PROJECT [PROJECT ...] --heuristic
+                           HEURISTIC [--subject SUBJECT [SUBJECT ...]]
+                           [--session SESSION [SESSION ...]] [--verbose]
+                           [--dry_run]
+fw-heudiconv-curate: error: unrecognized arguments: 2
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba71ef546b6002cefa158)
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba71ef546b6002bef3c38)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba71ef546b60029ef146f)
+
+INFO: Loading heuristic file...
+INFO: Applying heuristic to query results...
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz', '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz'], ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan', ('nii.gz',), None): ['{session}/asl/sub-{subject}_{session}_asl.nii.gz']})
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P001_ses-01_T1w.nii.gz -> sub-P001/ses-01/anat/sub-P001_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_10.nii.gz
+	sub-P001_ses-01_task-rest_bold.nii.gz -> sub-P001/ses-01/func/sub-P001_ses-01_task-rest_bold.nii.gz
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba71ef546b6002cefa158)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba71ef546b6002bef3c38)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba71ef546b60029ef146f)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P001_ses-01_T1w.nii.gz -> sub-P001/ses-01/anat/sub-P001_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_10.nii.gz
+	sub-P001_ses-01_task-rest_bold.nii.gz -> sub-P001/ses-01/func/sub-P001_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba687f546b60028ef14fa)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba687f546b60039f0a45c)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba687f546b6002af04c9a)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P002_ses-01_T1w.nii.gz -> sub-P002/ses-01/anat/sub-P002_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_10.nii.gz
+	sub-P002_ses-01_task-rest_bold.nii.gz -> sub-P002/ses-01/func/sub-P002_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba63ef546b6002af04c95)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba63ef546b6002cefa14e)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba63ef546b60029ef146a)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P003_ses-01_T1w.nii.gz -> sub-P003/ses-01/anat/sub-P003_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_10.nii.gz
+	sub-P003_ses-01_task-rest_bold.nii.gz -> sub-P003/ses-01/func/sub-P003_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba526f546b6002af04c84)
+	ses-02 (5caba593f546b6002af04c88)
+INFO: Applying heuristic to ses-01 (1/2)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba526f546b6002cefa140)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba526f546b60039f0a43b)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P004_ses-01_T1w.nii.gz -> sub-P004/ses-01/anat/sub-P004_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_10.nii.gz
+	sub-P004_ses-01_task-rest_bold.nii.gz -> sub-P004/ses-01/func/sub-P004_ses-01_task-rest_bold.nii.gz
+INFO: Applying heuristic to ses-02 (2/2)...
+DEBUG: Found SeqInfos:
+HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5caba593f546b60039f0a441)
+
+	t2_tse_CORONAL_HIPPO_flip120: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba593f546b60039f0a442)
+
+	HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba593f546b6002cefa142)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d406c66ebd2e95380484f58)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d406c70ebd2e95380485067)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 1904, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d406d25ebd2e95380487728)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d406df1ebd2e9538048ae7c)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_2.nii.gz
+	sub-P004_ses-02_T1w.nii.gz -> sub-P004/ses-02/anat/sub-P004_ses-02_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_flip120_4.nii.gz
+	sub-P004_ses-02_T2w.nii.gz -> sub-P004/ses-02/anat/sub-P004_ses-02_T2w.nii.gz
+DEBUG: 
+HCP_restBOLD_8.nii.gz
+	sub-P004_ses-02_task-rest_bold.nii.gz -> sub-P004/ses-02/func/sub-P004_ses-02_task-rest_bold.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_ASL.nii.gz
+	sub-P004_ses-02_asl.nii.gz -> sub-P004/ses-02/asl/sub-P004_ses-02_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_ASL.nii.gz
+	sub-P004_ses-02_asl.nii.gz -> sub-P004/ses-02/asl/sub-P004_ses-02_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_M0.nii.gz
+	sub-P004_ses-02_MZeroScan.nii.gz -> sub-P004/ses-02/asl/sub-P004_ses-02_MZeroScan.nii.gz
+DEBUG: 'sub-P004_ses-02_MZeroScan.nii.gz' IntendedFor: ['ses-02/asl/sub-P004_ses-02_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_M0.nii.gz
+	sub-P004_ses-02_MZeroScan.nii.gz -> sub-P004/ses-02/asl/sub-P004_ses-02_MZeroScan.nii.gz
+DEBUG: 'sub-P004_ses-02_MZeroScan.nii.gz' IntendedFor: ['ses-02/asl/sub-P004_ses-02_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_1D_Label-PLD1800ms_M0: ASL_3DSpiral_1D_Label-PLD1800ms_M0.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_1D_Label-PLD1800ms_M0: ASL_3DSpiral_1D_Label-PLD1800ms_M0.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba4e0f546b60039f0a436)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba4e0f546b60026ef0383)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'MOSAIC')] (5caba4e0f546b6002cefa13d)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P005_ses-01_T1w.nii.gz -> sub-P005/ses-01/anat/sub-P005_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_7.nii.gz
+	sub-P005_ses-01_task-rest_bold.nii.gz -> sub-P005/ses-01/func/sub-P005_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba4abf546b6002af04c7a)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba4abf546b6002af04c7b)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba4abf546b60039f0a432)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P006_ses-01_T1w.nii.gz -> sub-P006/ses-01/anat/sub-P006_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_11.nii.gz
+	sub-P006_ses-01_task-rest_bold.nii.gz -> sub-P006/ses-01/func/sub-P006_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba42ef546b60029ef1463)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba42ef546b6002af04c72)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba42ef546b6002af04c73)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P007_ses-01_T1w.nii.gz -> sub-P007/ses-01/anat/sub-P007_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_9.nii.gz
+	sub-P007_ses-01_task-rest_bold.nii.gz -> sub-P007/ses-01/func/sub-P007_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba3faf546b60029ef1460)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba3faf546b6002af04c6c)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 547, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba3faf546b60039f0a429)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P008_ses-01_T1w.nii.gz -> sub-P008/ses-01/anat/sub-P008_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_11.nii.gz
+	sub-P008_ses-01_task-rest_bold.nii.gz -> sub-P008/ses-01/func/sub-P008_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba219f546b60039f0a40d)
+	ses-02 (5caba328f546b60029ef145f)
+INFO: Applying heuristic to ses-01 (1/2)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba219f546b60039f0a40e)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba219f546b60039f0a40f)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P009_ses-01_T1w.nii.gz -> sub-P009/ses-01/anat/sub-P009_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_9.nii.gz
+	sub-P009_ses-01_task-rest_bold.nii.gz -> sub-P009/ses-01/func/sub-P009_ses-01_task-rest_bold.nii.gz
+INFO: Applying heuristic to ses-02 (2/2)...
+DEBUG: Found SeqInfos:
+HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5caba328f546b60039f0a418)
+
+	t2_tse_CORONAL_HIPPO_flip120: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba328f546b6002af04c5f)
+
+	HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba328f546b6002af04c60)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d407b69ebd2e953804bc9b9)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d407f75ebd2e953804cfca1)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+
+
+Traceback (most recent call last):
+  File "/home/will/anaconda3/bin/fw-heudiconv-curate", line 10, in <module>
+    sys.exit(main())
+  File "/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/cli/curate.py", line 212, in main
+    dry_run=args.dry_run)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/cli/curate.py", line 134, in convert_to_bids
+    seqitem+1)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/convert.py", line 73, in apply_heuristic
+    subj_label = subj_replace(force_label_format(client.get(acquisition_object.parents.subject).label))
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/client.py", line 104, in get
+    return self._fw.get(id, **kwargs)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/flywheel.py", line 5829, in get
+    return self.get_container(id, **kwargs)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/flywheel.py", line 2054, in get_container
+    return self.containers_api.get_container(container_id, **kwargs)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/api/containers_api.py", line 2462, in get_container
+    (data) = self.get_container_with_http_info(container_id, **kwargs)  # noqa: E501
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/api/containers_api.py", line 2539, in get_container_with_http_info
+    collection_formats=collection_formats)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/api_client.py", line 350, in call_api
+    _preload_content, _request_timeout, _request_out)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/api_client.py", line 180, in __call_api
+    _request_timeout=_request_timeout)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/api_client.py", line 371, in request
+    headers=headers)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/rest.py", line 188, in GET
+    query_params=query_params)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/rest.py", line 167, in request
+    headers=headers)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/requests/sessions.py", line 653, in send
+    r = dispatch_hook('response', hooks, r, **kwargs)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/requests/hooks.py", line 31, in dispatch_hook
+    _hook_data = hook(hook_data, **kwargs)
+  File "/home/will/anaconda3/lib/python3.7/site-packages/flywheel/rest.py", line 78, in response_hook
+    raise ApiException(http_resp=resp)
+flywheel.rest.ApiException: (504) Reason: Gateway Time-out
+Detail: Nginx: gateway timeout.
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba15ff546b60039f0a407)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba15ff546b6002cefa128)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba15ff546b60029ef145d)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P010_ses-01_T1w.nii.gz -> sub-P010/ses-01/anat/sub-P010_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_9.nii.gz
+	sub-P010_ses-01_task-rest_bold.nii.gz -> sub-P010/ses-01/func/sub-P010_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba0cef546b6002af04c4d)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 256, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba0cef546b60029ef145a)
+
+	BOLD_SceneMem_mb2: 
+		[TR=2 TE=0.03 shape=(512, 512, 180, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba0cef546b6002bef3c25)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba0cef546b60039f0a3fe)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_5.nii.gz
+	sub-P011_ses-01_T1w.nii.gz -> sub-P011/ses-01/anat/sub-P011_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_SceneMem_mb2_9.nii.gz
+	sub-P011_ses-01_task-scenemem_run-01_bold.nii.gz -> sub-P011/ses-01/func/sub-P011_ses-01_task-scenemem_run-01_bold.nii.gz
+DEBUG: 
+BOLD_resting_mb6_12.nii.gz
+	sub-P011_ses-01_task-rest_bold.nii.gz -> sub-P011/ses-01/func/sub-P011_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba02ef546b60029ef1458)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba02ef546b60027ef4d24)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba02ef546b60028ef14ea)
+
+	BOLD_SceneMem_mb2: 
+		[TR=2 TE=0.03 shape=(512, 512, 180, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5caba02ef546b6002af04c40)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P012_ses-01_T1w.nii.gz -> sub-P012/ses-01/anat/sub-P012_ses-01_T1w.nii.gz
+DEBUG: 
+BOLD_SceneMem_mb2_8.nii.gz
+	sub-P012_ses-01_task-scenemem_run-01_bold.nii.gz -> sub-P012/ses-01/func/sub-P012_ses-01_task-scenemem_run-01_bold.nii.gz
+DEBUG: 
+BOLD_resting_mb6_9.nii.gz
+	sub-P012_ses-01_task-rest_bold.nii.gz -> sub-P012/ses-01/func/sub-P012_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5caba01df546b6002af04c36)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 256, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5caba01df546b60039f0a3df)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P013_ses-01_T1w.nii.gz -> sub-P013/ses-01/anat/sub-P013_ses-01_T1w.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab9f79f546b60039f0a3c2)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab9f79f546b6002af04c1d)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P014_ses-01_T1w.nii.gz -> sub-P014/ses-01/anat/sub-P014_ses-01_T1w.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-02 (5cab9c69f546b6002af04c0a)
+	ses-01 (5cab9f41f546b60028ef14e0)
+INFO: Applying heuristic to ses-02 (1/2)...
+DEBUG: Found SeqInfos:
+HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab9c69f546b60039f0a3b5)
+
+	T1w_MPR: 
+		[TR=2.4 TE=0.00224 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'NORM', 'DIS3D', 'DIS2D')] (5cab9c6af546b6002af04c0b)
+
+	SPIRAL_V20_HCP: 
+		[TR=4.2 TE=0.01003 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d4068feebd2e9538047c757)
+
+	SPIRAL_V20_HCP: 
+		[TR=4.2 TE=0.01003 shape=(64, 64, 612, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d4069a1ebd2e9538047d4d7)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+T1w_MPR_1508457918.nii.gz
+	sub-P015_ses-02_T1w.nii.gz -> sub-P015/ses-02/anat/sub-P015_ses-02_T1w.nii.gz
+DEBUG: 
+HCP_restBOLD_1081530334.nii.gz
+	sub-P015_ses-02_task-rest_bold.nii.gz -> sub-P015/ses-02/func/sub-P015_ses-02_task-rest_bold.nii.gz
+DEBUG: 
+SPIRAL_V20_HCP_ASL.nii.gz
+	sub-P015_ses-02_asl.nii.gz -> sub-P015/ses-02/asl/sub-P015_ses-02_asl.nii.gz
+DEBUG: 
+SPIRAL_V20_HCP_M0.nii.gz
+	sub-P015_ses-02_MZeroScan.nii.gz -> sub-P015/ses-02/asl/sub-P015_ses-02_MZeroScan.nii.gz
+DEBUG: 'sub-P015_ses-02_MZeroScan.nii.gz' IntendedFor: ['ses-02/asl/sub-P015_ses-02_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: Ensuring all intentions apply for acquisition SPIRAL_V20_HCP_M0: SPIRAL_V20_HCP_M0.nii.gz
+INFO: Applying heuristic to ses-01 (2/2)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab9f41f546b6002af04c17)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_6.nii.gz
+	sub-P015_ses-01_T1w.nii.gz -> sub-P015/ses-01/anat/sub-P015_ses-01_T1w.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab95a6f546b6002def3f16)
+	ses-02 (5cab9bb9f546b60039f0a382)
+INFO: Applying heuristic to ses-01 (1/2)...
+DEBUG: Found SeqInfos:
+MPRAGE_TI1110_ipat2_moco3: 
+		[TR=1.85 TE=0.004 shape=(256, 192, 160, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab95a6f546b60027ef4ce3)
+
+	BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5cab95a6f546b60027ef4ce4)
+
+	t2_tse_CORONAL_HIPPO: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab95a6f546b6002bef3bd5)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+MPRAGE_TI1110_ipat2_moco3_4.nii.gz
+	sub-P016_ses-01_T1w.nii.gz -> sub-P016/ses-01/anat/sub-P016_ses-01_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_8.nii.gz
+	sub-P016_ses-01_T2w.nii.gz -> sub-P016/ses-01/anat/sub-P016_ses-01_T2w.nii.gz
+DEBUG: 
+BOLD_resting_mb6_10.nii.gz
+	sub-P016_ses-01_task-rest_bold.nii.gz -> sub-P016/ses-01/func/sub-P016_ses-01_task-rest_bold.nii.gz
+INFO: Applying heuristic to ses-02 (2/2)...
+DEBUG: Found SeqInfos:
+HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab9bb9f546b60039f0a383)
+
+	T1w_MPR: 
+		[TR=2.4 TE=0.00224 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'NORM', 'DIS3D', 'DIS2D')] (5cab9bb9f546b60028ef14ce)
+
+	SPIRAL_V20_HCP: 
+		[TR=4.2 TE=0.01003 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d406817ebd2e9538047bb26)
+
+	SPIRAL_V20_HCP: 
+		[TR=4.2 TE=0.01003 shape=(64, 64, 612, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d40689eebd2e9538047c287)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+T1w_MPR_775723291.nii.gz
+	sub-P016_ses-02_T1w.nii.gz -> sub-P016/ses-02/anat/sub-P016_ses-02_T1w.nii.gz
+DEBUG: 
+HCP_restBOLD_233727505.nii.gz
+	sub-P016_ses-02_task-rest_bold.nii.gz -> sub-P016/ses-02/func/sub-P016_ses-02_task-rest_bold.nii.gz
+DEBUG: 
+SPIRAL_V20_HCP_ASL.nii.gz
+	sub-P016_ses-02_asl.nii.gz -> sub-P016/ses-02/asl/sub-P016_ses-02_asl.nii.gz
+DEBUG: 
+SPIRAL_V20_HCP_M0.nii.gz
+	sub-P016_ses-02_MZeroScan.nii.gz -> sub-P016/ses-02/asl/sub-P016_ses-02_MZeroScan.nii.gz
+DEBUG: 'sub-P016_ses-02_MZeroScan.nii.gz' IntendedFor: ['ses-02/asl/sub-P016_ses-02_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: Ensuring all intentions apply for acquisition SPIRAL_V20_HCP_M0: SPIRAL_V20_HCP_M0.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab9212f546b60039f0a2ab)
+	ses-02 (5cab92a8f546b60029ef1414)
+INFO: Applying heuristic to ses-01 (1/2)...
+DEBUG: Found SeqInfos:
+BOLD_resting_mb6: 
+		[TR=0.5 TE=0.03 shape=(448, 448, 706, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5cab9212f546b6002cefa09c)
+
+	BOLD_SceneMem_mb2: 
+		[TR=2 TE=0.03 shape=(512, 512, 34, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'MOSAIC')] (5cab9212f546b60039f0a2ad)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+BOLD_SceneMem_mb2_10.nii.gz
+	sub-P017_ses-01_task-scenemem_run-01_bold.nii.gz -> sub-P017/ses-01/func/sub-P017_ses-01_task-scenemem_run-01_bold.nii.gz
+DEBUG: 
+BOLD_resting_mb6_11.nii.gz
+	sub-P017_ses-01_task-rest_bold.nii.gz -> sub-P017/ses-01/func/sub-P017_ses-01_task-rest_bold.nii.gz
+INFO: Applying heuristic to ses-02 (2/2)...
+DEBUG: Found SeqInfos:
+T1w_MPR: 
+		[TR=2.4 TE=0.00224 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'NORM', 'DIS3D', 'DIS2D')] (5cab92a8f546b6002cefa0a1)
+
+	HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab92a8f546b60027ef4cd8)
+
+	SPIRAL_V20_HCP: 
+		[TR=4.2 TE=0.01003 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d4065e4ebd2e95380474c58)
+
+	SPIRAL_V20_HCP: 
+		[TR=4.2 TE=0.01003 shape=(64, 64, 612, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d40670cebd2e9538047a788)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+T1w_MPR_1240677779.nii.gz
+	sub-P017_ses-02_T1w.nii.gz -> sub-P017/ses-02/anat/sub-P017_ses-02_T1w.nii.gz
+DEBUG: 
+HCP_restBOLD_543627420.nii.gz
+	sub-P017_ses-02_task-rest_bold.nii.gz -> sub-P017/ses-02/func/sub-P017_ses-02_task-rest_bold.nii.gz
+DEBUG: 
+SPIRAL_V20_HCP_ASL.nii.gz
+	sub-P017_ses-02_asl.nii.gz -> sub-P017/ses-02/asl/sub-P017_ses-02_asl.nii.gz
+DEBUG: 
+SPIRAL_V20_HCP_M0.nii.gz
+	sub-P017_ses-02_MZeroScan.nii.gz -> sub-P017/ses-02/asl/sub-P017_ses-02_MZeroScan.nii.gz
+DEBUG: 'sub-P017_ses-02_MZeroScan.nii.gz' IntendedFor: ['ses-02/asl/sub-P017_ses-02_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: Ensuring all intentions apply for acquisition SPIRAL_V20_HCP_M0: SPIRAL_V20_HCP_M0.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab91cdf546b6002cefa09a)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab91cdf546b6002bef3bc8)
+
+	HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab91cdf546b6002def3f08)
+
+	t2_tse_CORONAL_HIPPO: 
+		[TR=12.86 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab91cdf546b6002def3f09)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_2.nii.gz
+	sub-P018_ses-01_T1w.nii.gz -> sub-P018/ses-01/anat/sub-P018_ses-01_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_6.nii.gz
+	sub-P018_ses-01_T2w.nii.gz -> sub-P018/ses-01/anat/sub-P018_ses-01_T2w.nii.gz
+DEBUG: 
+HCP_restBOLD_7.nii.gz
+	sub-P018_ses-01_task-rest_bold.nii.gz -> sub-P018/ses-01/func/sub-P018_ses-01_task-rest_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab913af546b6002cefa091)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(300, 320, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab913af546b60026ef033e)
+
+	ASL_3DSpiral_1shot_1Daccel_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab913af546b60029ef140f)
+
+	ASL_3DSpiral_1shot_1Daccel_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab913af546b60029ef1410)
+
+	HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab913af546b6002af04b4b)
+
+	t2_tse_CORONAL_HIPPO: 
+		[TR=9.1 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab913af546b60039f0a291)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_2.nii.gz
+	sub-P019_ses-01_T1w.nii.gz -> sub-P019/ses-01/anat/sub-P019_ses-01_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_6.nii.gz
+	sub-P019_ses-01_T2w.nii.gz -> sub-P019/ses-01/anat/sub-P019_ses-01_T2w.nii.gz
+DEBUG: 
+HCP_restBOLD_7.nii.gz
+	sub-P019_ses-01_task-rest_bold.nii.gz -> sub-P019/ses-01/func/sub-P019_ses-01_task-rest_bold.nii.gz
+DEBUG: 
+ASL_3DSpiral_1shot_1Daccel_Label-PLD1800ms_15.nii.gz
+	sub-P019_ses-01_asl.nii.gz -> sub-P019/ses-01/asl/sub-P019_ses-01_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1shot_1Daccel_Label-PLD1800ms_14.nii.gz
+	sub-P019_ses-01_MZeroScan.nii.gz -> sub-P019/ses-01/asl/sub-P019_ses-01_MZeroScan.nii.gz
+DEBUG: 'sub-P019_ses-01_MZeroScan.nii.gz' IntendedFor: ['ses-01/asl/sub-P019_ses-01_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_1shot_1Daccel_Label-PLD1800ms_M0_Series0014: ASL_3DSpiral_1shot_1Daccel_Label-PLD1800ms_14.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab8d64f546b60039f0a25f)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(300, 320, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab8d64f546b6002bef3bbd)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 34, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8d64f546b6002def3f01)
+
+	HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab8d64f546b6002af04b26)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8d64f546b6002cefa084)
+
+	t2_tse_CORONAL_HIPPO_flip120: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8d64f546b60027ef4cc5)
+
+	ASL_3DSpiral_TESTONLY: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 34, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8d64f546b6002af04b27)
+
+	ASL_3DSpiral_TESTONLY: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8d64f546b60028ef1492)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8d65f546b6002bef3bbe)
+
+	t2_tse_CORONAL_HIPPO_flip120: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8d65f546b60039f0a260)
+
+	ASL_3DSpiral_TESTONLY: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8d65f546b60039f0a261)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb198408a99600596552b5)
+
+	B0map_v4: 
+		[TR=1 TE=0.00313 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb198408a99600596552b5)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 44, -1) image_type=('ORIGINAL', 'PRIMARY', 'P', 'ND')] (5cdb198408a99600596552b6)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_2.nii.gz
+	sub-P020_ses-01_T1w.nii.gz -> sub-P020/ses-01/anat/sub-P020_ses-01_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_flip120_6.nii.gz
+	sub-P020_ses-01_T2w.nii.gz -> sub-P020/ses-01/anat/sub-P020_ses-01_T2w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_flip120_5.nii.gz
+	sub-P020_ses-01_T2w.nii.gz -> sub-P020/ses-01/anat/sub-P020_ses-01_T2w.nii.gz
+DEBUG: 
+HCP_restBOLD_13.nii.gz
+	sub-P020_ses-01_task-rest_bold.nii.gz -> sub-P020/ses-01/func/sub-P020_ses-01_task-rest_bold.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_17.nii.gz
+	sub-P020_ses-01_asl.nii.gz -> sub-P020/ses-01/asl/sub-P020_ses-01_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_TESTONLY_11.nii.gz
+	sub-P020_ses-01_asl.nii.gz -> sub-P020/ses-01/asl/sub-P020_ses-01_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_TESTONLY_10.nii.gz
+	sub-P020_ses-01_MZeroScan.nii.gz -> sub-P020/ses-01/asl/sub-P020_ses-01_MZeroScan.nii.gz
+DEBUG: 'sub-P020_ses-01_MZeroScan.nii.gz' IntendedFor: ['ses-01/asl/sub-P020_ses-01_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_16.nii.gz
+	sub-P020_ses-01_MZeroScan.nii.gz -> sub-P020/ses-01/asl/sub-P020_ses-01_MZeroScan.nii.gz
+DEBUG: 'sub-P020_ses-01_MZeroScan.nii.gz' IntendedFor: ['ses-01/asl/sub-P020_ses-01_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: 
+B0map_v4_15_ph.nii.gz
+	sub-P020_ses-01_phasediff.nii.gz -> sub-P020/ses-01/fmap/sub-P020_ses-01_phasediff.nii.gz
+DEBUG: 'sub-P020_ses-01_phasediff.nii.gz' IntendedFor: ['ses-01/func/sub-P020_ses-01_task-object_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-object_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-rhyme_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-rhyme_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-scenemem_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-scenemem_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-sentence_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-sentence_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-wordgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-wordgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-binder_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-binder_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-verbgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-verbgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P020_ses-01_task-rest_bold.nii.gz']
+DEBUG: Applied!
+DEBUG: B0map_v4_15_ph.nii.gz metadata: {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}
+DEBUG: 
+B0map_v4_14_e1.nii.gz
+	sub-P020_ses-01_magnitude1.nii.gz -> sub-P020/ses-01/fmap/sub-P020_ses-01_magnitude1.nii.gz
+DEBUG: 
+B0map_v4_14_e2.nii.gz
+	sub-P020_ses-01_magnitude2.nii.gz -> sub-P020/ses-01/fmap/sub-P020_ses-01_magnitude2.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_TESTONLY_M0_Series0010: ASL_3DSpiral_TESTONLY_10.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_1D_Label-PLD1800ms_M0_Series0016: ASL_3DSpiral_1D_Label-PLD1800ms_16.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition B0map_v4_Series0015: B0map_v4_15_ph.nii.gz
+WARNING: IntendedFor values do not point to a BIDS file: ['ses-01/func/sub-P020_ses-01_task-object_run-01_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-object_run-02_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-rhyme_run-01_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-rhyme_run-02_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-scenemem_run-01_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-scenemem_run-02_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-sentence_run-01_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-sentence_run-02_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-wordgen_run-01_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-wordgen_run-02_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-binder_run-01_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-binder_run-02_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-verbgen_run-01_bold.nii.gz', 'ses-01/func/sub-P020_ses-01_task-verbgen_run-02_bold.nii.gz']
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab8cdff546b6002cefa07d)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+t2_tse_CORONAL_HIPPO_flip120: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8cdff546b60026ef0338)
+
+	HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(300, 320, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab8cdff546b6002af04b1c)
+
+	HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(300, 320, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab8cdff546b6002bef3bbb)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_2.nii.gz
+	sub-P021_ses-01_T1w.nii.gz -> sub-P021/ses-01/anat/sub-P021_ses-01_T1w.nii.gz
+DEBUG: 
+HCP_T1_9.nii.gz
+	sub-P021_ses-01_T1w.nii.gz -> sub-P021/ses-01/anat/sub-P021_ses-01_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_flip120_8.nii.gz
+	sub-P021_ses-01_T2w.nii.gz -> sub-P021/ses-01/anat/sub-P021_ses-01_T2w.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab8a13f546b6002bef3bb3)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab8a13f546b6002def3efc)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 34, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8a13f546b60026ef0336)
+
+	t2_tse_CORONAL_HIPPO_flip120: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab8a13f546b60039f0a232)
+
+	HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab8a13f546b60039f0a233)
+
+	BOLD_SceneMem_mb8: 
+		[TR=1 TE=0.037 shape=(936, 936, 397, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab8a13f546b60027ef4cbb)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8a13f546b60028ef1489)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab8a13f546b6002af04aff)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb197908a996004565374e)
+
+	B0map_v4: 
+		[TR=1 TE=0.00313 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb197908a996004565374e)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 44, -1) image_type=('ORIGINAL', 'PRIMARY', 'P', 'ND')] (5cdb197908a99600596552b0)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_2.nii.gz
+	sub-P022_ses-01_T1w.nii.gz -> sub-P022/ses-01/anat/sub-P022_ses-01_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_flip120_4.nii.gz
+	sub-P022_ses-01_T2w.nii.gz -> sub-P022/ses-01/anat/sub-P022_ses-01_T2w.nii.gz
+DEBUG: 
+BOLD_SceneMem_mb8_9.nii.gz
+	sub-P022_ses-01_task-scenemem_run-01_bold.nii.gz -> sub-P022/ses-01/func/sub-P022_ses-01_task-scenemem_run-01_bold.nii.gz
+DEBUG: 
+HCP_restBOLD_8.nii.gz
+	sub-P022_ses-01_task-rest_bold.nii.gz -> sub-P022/ses-01/func/sub-P022_ses-01_task-rest_bold.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_13.nii.gz
+	sub-P022_ses-01_asl.nii.gz -> sub-P022/ses-01/asl/sub-P022_ses-01_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_12.nii.gz
+	sub-P022_ses-01_MZeroScan.nii.gz -> sub-P022/ses-01/asl/sub-P022_ses-01_MZeroScan.nii.gz
+DEBUG: 'sub-P022_ses-01_MZeroScan.nii.gz' IntendedFor: ['ses-01/asl/sub-P022_ses-01_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: 
+B0map_v4_11_ph.nii.gz
+	sub-P022_ses-01_phasediff.nii.gz -> sub-P022/ses-01/fmap/sub-P022_ses-01_phasediff.nii.gz
+DEBUG: 'sub-P022_ses-01_phasediff.nii.gz' IntendedFor: ['ses-01/func/sub-P022_ses-01_task-object_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-object_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-rhyme_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-rhyme_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-scenemem_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-scenemem_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-sentence_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-sentence_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-wordgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-wordgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-binder_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-binder_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-verbgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-verbgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P022_ses-01_task-rest_bold.nii.gz']
+DEBUG: Applied!
+DEBUG: B0map_v4_11_ph.nii.gz metadata: {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}
+DEBUG: 
+B0map_v4_10_e1.nii.gz
+	sub-P022_ses-01_magnitude1.nii.gz -> sub-P022/ses-01/fmap/sub-P022_ses-01_magnitude1.nii.gz
+DEBUG: 
+B0map_v4_10_e2.nii.gz
+	sub-P022_ses-01_magnitude2.nii.gz -> sub-P022/ses-01/fmap/sub-P022_ses-01_magnitude2.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_1D_Label-PLD1800ms_M0_Series0012: ASL_3DSpiral_1D_Label-PLD1800ms_12.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition B0map_v4_Series0011: B0map_v4_11_ph.nii.gz
+WARNING: IntendedFor values do not point to a BIDS file: ['ses-01/func/sub-P022_ses-01_task-object_run-01_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-object_run-02_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-rhyme_run-01_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-rhyme_run-02_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-scenemem_run-02_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-sentence_run-01_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-sentence_run-02_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-wordgen_run-01_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-wordgen_run-02_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-binder_run-01_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-binder_run-02_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-verbgen_run-01_bold.nii.gz', 'ses-01/func/sub-P022_ses-01_task-verbgen_run-02_bold.nii.gz']
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab899cf546b60039f0a225)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab899cf546b60027ef4cb7)
+
+	t2_tse_CORONAL_HIPPO_flip120: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab899cf546b6002bef3bb1)
+
+	HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab899cf546b60028ef1487)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab899cf546b60039f0a226)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab899cf546b6002cefa06b)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 34, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab899cf546b6002af04af6)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 44, -1) image_type=('ORIGINAL', 'PRIMARY', 'P', 'ND')] (5cdb197008a9960042651fb3)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb197008a9960030650362)
+
+	B0map_v4: 
+		[TR=1 TE=0.00313 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb197008a9960030650362)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_2.nii.gz
+	sub-P023_ses-01_T1w.nii.gz -> sub-P023/ses-01/anat/sub-P023_ses-01_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_flip120_4.nii.gz
+	sub-P023_ses-01_T2w.nii.gz -> sub-P023/ses-01/anat/sub-P023_ses-01_T2w.nii.gz
+DEBUG: 
+HCP_restBOLD_8.nii.gz
+	sub-P023_ses-01_task-rest_bold.nii.gz -> sub-P023/ses-01/func/sub-P023_ses-01_task-rest_bold.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_12.nii.gz
+	sub-P023_ses-01_asl.nii.gz -> sub-P023/ses-01/asl/sub-P023_ses-01_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_11.nii.gz
+	sub-P023_ses-01_MZeroScan.nii.gz -> sub-P023/ses-01/asl/sub-P023_ses-01_MZeroScan.nii.gz
+DEBUG: 'sub-P023_ses-01_MZeroScan.nii.gz' IntendedFor: ['ses-01/asl/sub-P023_ses-01_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: 
+B0map_v4_10_ph.nii.gz
+	sub-P023_ses-01_phasediff.nii.gz -> sub-P023/ses-01/fmap/sub-P023_ses-01_phasediff.nii.gz
+DEBUG: 'sub-P023_ses-01_phasediff.nii.gz' IntendedFor: ['ses-01/func/sub-P023_ses-01_task-object_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-object_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-rhyme_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-rhyme_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-scenemem_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-scenemem_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-sentence_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-sentence_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-wordgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-wordgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-binder_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-binder_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-verbgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-verbgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P023_ses-01_task-rest_bold.nii.gz']
+DEBUG: Applied!
+DEBUG: B0map_v4_10_ph.nii.gz metadata: {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}
+DEBUG: 
+B0map_v4_9_e1.nii.gz
+	sub-P023_ses-01_magnitude1.nii.gz -> sub-P023/ses-01/fmap/sub-P023_ses-01_magnitude1.nii.gz
+DEBUG: 
+B0map_v4_9_e2.nii.gz
+	sub-P023_ses-01_magnitude2.nii.gz -> sub-P023/ses-01/fmap/sub-P023_ses-01_magnitude2.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_1D_Label-PLD1800ms_M0_Series0011: ASL_3DSpiral_1D_Label-PLD1800ms_11.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition B0map_v4_Series0010: B0map_v4_10_ph.nii.gz
+WARNING: IntendedFor values do not point to a BIDS file: ['ses-01/func/sub-P023_ses-01_task-object_run-01_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-object_run-02_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-rhyme_run-01_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-rhyme_run-02_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-scenemem_run-01_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-scenemem_run-02_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-sentence_run-01_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-sentence_run-02_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-wordgen_run-01_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-wordgen_run-02_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-binder_run-01_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-binder_run-02_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-verbgen_run-01_bold.nii.gz', 'ses-01/func/sub-P023_ses-01_task-verbgen_run-02_bold.nii.gz']
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab6341f546b6002af048ad)
+	ses-02 (5cab880ff546b60039f0a20b)
+INFO: Applying heuristic to ses-01 (1/2)...
+DEBUG: Found SeqInfos:
+HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab6341f546b6002af048ae)
+
+	t2_tse_CORONAL_HIPPO_flip120: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab6341f546b6002af048af)
+
+	HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab6341f546b60026ef027c)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab6341f546b6002cef9e97)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab6341f546b6002def3e07)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 34, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab6341f546b60026ef027d)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 44, -1) image_type=('ORIGINAL', 'PRIMARY', 'P', 'ND')] (5cdb196608a99600376504a3)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb196608a9960041651438)
+
+	B0map_v4: 
+		[TR=1 TE=0.00313 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb196608a9960041651438)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_2.nii.gz
+	sub-P024_ses-01_T1w.nii.gz -> sub-P024/ses-01/anat/sub-P024_ses-01_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_flip120_4.nii.gz
+	sub-P024_ses-01_T2w.nii.gz -> sub-P024/ses-01/anat/sub-P024_ses-01_T2w.nii.gz
+DEBUG: 
+HCP_restBOLD_8.nii.gz
+	sub-P024_ses-01_task-rest_bold.nii.gz -> sub-P024/ses-01/func/sub-P024_ses-01_task-rest_bold.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_12.nii.gz
+	sub-P024_ses-01_asl.nii.gz -> sub-P024/ses-01/asl/sub-P024_ses-01_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_11.nii.gz
+	sub-P024_ses-01_MZeroScan.nii.gz -> sub-P024/ses-01/asl/sub-P024_ses-01_MZeroScan.nii.gz
+DEBUG: 'sub-P024_ses-01_MZeroScan.nii.gz' IntendedFor: ['ses-01/asl/sub-P024_ses-01_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: 
+B0map_v4_10_ph.nii.gz
+	sub-P024_ses-01_phasediff.nii.gz -> sub-P024/ses-01/fmap/sub-P024_ses-01_phasediff.nii.gz
+DEBUG: 'sub-P024_ses-01_phasediff.nii.gz' IntendedFor: ['ses-01/func/sub-P024_ses-01_task-object_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-object_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-rhyme_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-rhyme_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-scenemem_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-scenemem_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-sentence_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-sentence_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-wordgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-wordgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-binder_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-binder_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-verbgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-verbgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P024_ses-01_task-rest_bold.nii.gz']
+DEBUG: Applied!
+DEBUG: B0map_v4_10_ph.nii.gz metadata: {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}
+DEBUG: 
+B0map_v4_9_e1.nii.gz
+	sub-P024_ses-01_magnitude1.nii.gz -> sub-P024/ses-01/fmap/sub-P024_ses-01_magnitude1.nii.gz
+DEBUG: 
+B0map_v4_9_e2.nii.gz
+	sub-P024_ses-01_magnitude2.nii.gz -> sub-P024/ses-01/fmap/sub-P024_ses-01_magnitude2.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_1D_Label-PLD1800ms_M0_Series0011: ASL_3DSpiral_1D_Label-PLD1800ms_11.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition B0map_v4_Series0010: B0map_v4_10_ph.nii.gz
+WARNING: IntendedFor values do not point to a BIDS file: ['ses-01/func/sub-P024_ses-01_task-object_run-01_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-object_run-02_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-rhyme_run-01_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-rhyme_run-02_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-scenemem_run-01_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-scenemem_run-02_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-sentence_run-01_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-sentence_run-02_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-wordgen_run-01_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-wordgen_run-02_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-binder_run-01_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-binder_run-02_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-verbgen_run-01_bold.nii.gz', 'ses-01/func/sub-P024_ses-01_task-verbgen_run-02_bold.nii.gz']
+INFO: Applying heuristic to ses-02 (2/2)...
+DEBUG: Found SeqInfos:
+HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab880ff546b6002af04ae2)
+
+	T1w_MPR: 
+		[TR=2.4 TE=0.00224 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'NORM', 'DIS3D', 'DIS2D')] (5cab880ff546b60039f0a20d)
+
+	SPIRAL_V20_HCP: 
+		[TR=4.2 TE=0.01003 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d406395ebd2e95380471f15)
+
+	SPIRAL_V20_HCP: 
+		[TR=4.2 TE=0.01003 shape=(64, 64, 612, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d4064c5ebd2e95380472c83)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+T1w_MPR_2.nii.gz
+	sub-P024_ses-02_T1w.nii.gz -> sub-P024/ses-02/anat/sub-P024_ses-02_T1w.nii.gz
+DEBUG: 
+HCP_restBOLD_8.nii.gz
+	sub-P024_ses-02_task-rest_bold.nii.gz -> sub-P024/ses-02/func/sub-P024_ses-02_task-rest_bold.nii.gz
+DEBUG: 
+SPIRAL_V20_HCP_ASL.nii.gz
+	sub-P024_ses-02_asl.nii.gz -> sub-P024/ses-02/asl/sub-P024_ses-02_asl.nii.gz
+DEBUG: 
+SPIRAL_V20_HCP_M0.nii.gz
+	sub-P024_ses-02_MZeroScan.nii.gz -> sub-P024/ses-02/asl/sub-P024_ses-02_MZeroScan.nii.gz
+DEBUG: 'sub-P024_ses-02_MZeroScan.nii.gz' IntendedFor: ['ses-02/asl/sub-P024_ses-02_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: Ensuring all intentions apply for acquisition SPIRAL_V20_HCP_M0: SPIRAL_V20_HCP_M0.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5cab5fdef546b60039f09e7a)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab5fdef546b6002af0488b)
+
+	HCP_T1: 
+		[TR=2.4 TE=0.00221 shape=(300, 320, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab5fdef546b6002af0488c)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab5fdef546b6002af0488d)
+
+	HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5cab5fdef546b60039f09e7b)
+
+	t2_tse_CORONAL_HIPPO_flip120: 
+		[TR=7.2 TE=0.076 shape=(448, 448, 30, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cab5fdef546b60039f09e7c)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 34, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cab5fdef546b60027ef4b86)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 44, -1) image_type=('ORIGINAL', 'PRIMARY', 'P', 'ND')] (5cdb195e08a99600596552a2)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb195e08a996003f650b2c)
+
+	B0map_v4: 
+		[TR=1 TE=0.00313 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb195e08a996003f650b2c)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_2.nii.gz
+	sub-P025_ses-01_T1w.nii.gz -> sub-P025/ses-01/anat/sub-P025_ses-01_T1w.nii.gz
+DEBUG: 
+t2_tse_CORONAL_HIPPO_flip120_7.nii.gz
+	sub-P025_ses-01_T2w.nii.gz -> sub-P025/ses-01/anat/sub-P025_ses-01_T2w.nii.gz
+DEBUG: 
+HCP_restBOLD_11.nii.gz
+	sub-P025_ses-01_task-rest_bold.nii.gz -> sub-P025/ses-01/func/sub-P025_ses-01_task-rest_bold.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_15.nii.gz
+	sub-P025_ses-01_asl.nii.gz -> sub-P025/ses-01/asl/sub-P025_ses-01_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_14.nii.gz
+	sub-P025_ses-01_MZeroScan.nii.gz -> sub-P025/ses-01/asl/sub-P025_ses-01_MZeroScan.nii.gz
+DEBUG: 'sub-P025_ses-01_MZeroScan.nii.gz' IntendedFor: ['ses-01/asl/sub-P025_ses-01_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: 
+B0map_v4_13_ph.nii.gz
+	sub-P025_ses-01_phasediff.nii.gz -> sub-P025/ses-01/fmap/sub-P025_ses-01_phasediff.nii.gz
+DEBUG: 'sub-P025_ses-01_phasediff.nii.gz' IntendedFor: ['ses-01/func/sub-P025_ses-01_task-object_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-object_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-rhyme_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-rhyme_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-scenemem_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-scenemem_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-sentence_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-sentence_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-wordgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-wordgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-binder_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-binder_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-verbgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-verbgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P025_ses-01_task-rest_bold.nii.gz']
+DEBUG: Applied!
+DEBUG: B0map_v4_13_ph.nii.gz metadata: {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}
+DEBUG: 
+B0map_v4_12_e1.nii.gz
+	sub-P025_ses-01_magnitude1.nii.gz -> sub-P025/ses-01/fmap/sub-P025_ses-01_magnitude1.nii.gz
+DEBUG: 
+B0map_v4_12_e2.nii.gz
+	sub-P025_ses-01_magnitude2.nii.gz -> sub-P025/ses-01/fmap/sub-P025_ses-01_magnitude2.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_1D_Label-PLD1800ms_M0_Series0014: ASL_3DSpiral_1D_Label-PLD1800ms_14.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition B0map_v4_Series0013: B0map_v4_13_ph.nii.gz
+WARNING: IntendedFor values do not point to a BIDS file: ['ses-01/func/sub-P025_ses-01_task-object_run-01_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-object_run-02_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-rhyme_run-01_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-rhyme_run-02_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-scenemem_run-01_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-scenemem_run-02_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-sentence_run-01_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-sentence_run-02_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-wordgen_run-01_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-wordgen_run-02_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-binder_run-01_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-binder_run-02_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-verbgen_run-01_bold.nii.gz', 'ses-01/func/sub-P025_ses-01_task-verbgen_run-02_bold.nii.gz']
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5ca7a3dcf546b60026ef0194)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca7a3dcf546b60039f0993f)
+
+	HCP_T1_sagittal: 
+		[TR=2.4 TE=0.00221 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5ca7a3dcf546b60039f09940)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5ca7a3dcf546b6002bef3922)
+
+	BOLD_SceneMem_mb8: 
+		[TR=1 TE=0.037 shape=(936, 936, 397, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca7a3ddf546b6002cef9c4c)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 34, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5ca7a3ddf546b6002af044af)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5ca7a3ddf546b6002af044b0)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb195608a9960059655294)
+
+	B0map_v4: 
+		[TR=1 TE=0.00313 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb195608a9960059655294)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 44, -1) image_type=('ORIGINAL', 'PRIMARY', 'P', 'ND')] (5cdb195608a9960059655295)
+
+	HCP_T2_sagittal: 
+		[TR=3.2 TE=0.567 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5d432fc5ebd2e95380c37523)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_sagittal_2.nii.gz
+	sub-P026_ses-01_T1w.nii.gz -> sub-P026/ses-01/anat/sub-P026_ses-01_T1w.nii.gz
+DEBUG: 
+HCP_T2 sagittal.nii.gz
+	sub-P026_ses-01_T2w.nii.gz -> sub-P026/ses-01/anat/sub-P026_ses-01_T2w.nii.gz
+DEBUG: 
+BOLD_SceneMem_mb8_10.nii.gz
+	sub-P026_ses-01_task-scenemem_run-01_bold.nii.gz -> sub-P026/ses-01/func/sub-P026_ses-01_task-scenemem_run-01_bold.nii.gz
+DEBUG: 
+HCP_restBOLD_8.nii.gz
+	sub-P026_ses-01_task-rest_bold.nii.gz -> sub-P026/ses-01/func/sub-P026_ses-01_task-rest_bold.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_14.nii.gz
+	sub-P026_ses-01_asl.nii.gz -> sub-P026/ses-01/asl/sub-P026_ses-01_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_13.nii.gz
+	sub-P026_ses-01_MZeroScan.nii.gz -> sub-P026/ses-01/asl/sub-P026_ses-01_MZeroScan.nii.gz
+DEBUG: 'sub-P026_ses-01_MZeroScan.nii.gz' IntendedFor: ['ses-01/asl/sub-P026_ses-01_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: 
+B0map_v4_12_ph.nii.gz
+	sub-P026_ses-01_phasediff.nii.gz -> sub-P026/ses-01/fmap/sub-P026_ses-01_phasediff.nii.gz
+DEBUG: 'sub-P026_ses-01_phasediff.nii.gz' IntendedFor: ['ses-01/func/sub-P026_ses-01_task-object_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-object_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-rhyme_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-rhyme_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-scenemem_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-scenemem_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-sentence_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-sentence_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-wordgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-wordgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-binder_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-binder_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-verbgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-verbgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P026_ses-01_task-rest_bold.nii.gz']
+DEBUG: Applied!
+DEBUG: B0map_v4_12_ph.nii.gz metadata: {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}
+DEBUG: 
+B0map_v4_11_e1.nii.gz
+	sub-P026_ses-01_magnitude1.nii.gz -> sub-P026/ses-01/fmap/sub-P026_ses-01_magnitude1.nii.gz
+DEBUG: 
+B0map_v4_11_e2.nii.gz
+	sub-P026_ses-01_magnitude2.nii.gz -> sub-P026/ses-01/fmap/sub-P026_ses-01_magnitude2.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_1D_Label-PLD1800ms_M0_Series0013: ASL_3DSpiral_1D_Label-PLD1800ms_13.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition B0map_v4_Series0012: B0map_v4_12_ph.nii.gz
+WARNING: IntendedFor values do not point to a BIDS file: ['ses-01/func/sub-P026_ses-01_task-object_run-01_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-object_run-02_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-rhyme_run-01_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-rhyme_run-02_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-scenemem_run-02_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-sentence_run-01_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-sentence_run-02_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-wordgen_run-01_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-wordgen_run-02_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-binder_run-01_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-binder_run-02_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-verbgen_run-01_bold.nii.gz', 'ses-01/func/sub-P026_ses-01_task-verbgen_run-02_bold.nii.gz']
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5ca774a9f546b60027ef48c0)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+HCP_T1_sagittal: 
+		[TR=2.4 TE=0.00221 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5ca774a9f546b60039f0962d)
+
+	HCP_restBOLD: 
+		[TR=0.8 TE=0.037 shape=(936, 936, 450, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca774a9f546b60028ef11ed)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5ca774a9f546b6002bef384d)
+
+	BOLD_SceneMem_mb8: 
+		[TR=1 TE=0.037 shape=(936, 936, 397, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca774a9f546b60029ef1169)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 34, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5ca774a9f546b6002bef384e)
+
+	ASL_3DSpiral_1D_Label-PLD1800ms: 
+		[TR=4.5 TE=0.01019 shape=(64, 64, 2040, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5ca774a9f546b60028ef11ee)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb194d08a996004565372a)
+
+	B0map_v4: 
+		[TR=1 TE=0.00313 shape=(64, 64, 88, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5cdb194d08a996004565372a)
+
+	B0map_v4: 
+		[TR=1 TE=0.00559 shape=(64, 64, 44, -1) image_type=('ORIGINAL', 'PRIMARY', 'P', 'ND')] (5cdb194d08a996004565372b)
+
+	HCP_T2_sagittal: 
+		[TR=3.2 TE=0.567 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5d4337bfebd2e95380c5ca6b)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+HCP_T1_sagittal_2.nii.gz
+	sub-P027_ses-01_T1w.nii.gz -> sub-P027/ses-01/anat/sub-P027_ses-01_T1w.nii.gz
+DEBUG: 
+HCP_T2 sagittal.nii.gz
+	sub-P027_ses-01_T2w.nii.gz -> sub-P027/ses-01/anat/sub-P027_ses-01_T2w.nii.gz
+DEBUG: 
+BOLD_SceneMem_mb8_10.nii.gz
+	sub-P027_ses-01_task-scenemem_run-01_bold.nii.gz -> sub-P027/ses-01/func/sub-P027_ses-01_task-scenemem_run-01_bold.nii.gz
+DEBUG: 
+HCP_restBOLD_9.nii.gz
+	sub-P027_ses-01_task-rest_bold.nii.gz -> sub-P027/ses-01/func/sub-P027_ses-01_task-rest_bold.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_14.nii.gz
+	sub-P027_ses-01_asl.nii.gz -> sub-P027/ses-01/asl/sub-P027_ses-01_asl.nii.gz
+DEBUG: 
+ASL_3DSpiral_1D_Label-PLD1800ms_13.nii.gz
+	sub-P027_ses-01_MZeroScan.nii.gz -> sub-P027/ses-01/asl/sub-P027_ses-01_MZeroScan.nii.gz
+DEBUG: 'sub-P027_ses-01_MZeroScan.nii.gz' IntendedFor: ['ses-01/asl/sub-P027_ses-01_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: 
+B0map_v4_12_ph.nii.gz
+	sub-P027_ses-01_phasediff.nii.gz -> sub-P027/ses-01/fmap/sub-P027_ses-01_phasediff.nii.gz
+DEBUG: 'sub-P027_ses-01_phasediff.nii.gz' IntendedFor: ['ses-01/func/sub-P027_ses-01_task-object_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-object_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-rhyme_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-rhyme_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-scenemem_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-scenemem_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-sentence_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-sentence_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-wordgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-wordgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-binder_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-binder_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-verbgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-verbgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P027_ses-01_task-rest_bold.nii.gz']
+DEBUG: Applied!
+DEBUG: B0map_v4_12_ph.nii.gz metadata: {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}
+DEBUG: 
+B0map_v4_11_e1.nii.gz
+	sub-P027_ses-01_magnitude1.nii.gz -> sub-P027/ses-01/fmap/sub-P027_ses-01_magnitude1.nii.gz
+DEBUG: 
+B0map_v4_11_e2.nii.gz
+	sub-P027_ses-01_magnitude2.nii.gz -> sub-P027/ses-01/fmap/sub-P027_ses-01_magnitude2.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition ASL_3DSpiral_1D_Label-PLD1800ms_M0_Series0013: ASL_3DSpiral_1D_Label-PLD1800ms_13.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition B0map_v4_Series0012: B0map_v4_12_ph.nii.gz
+WARNING: IntendedFor values do not point to a BIDS file: ['ses-01/func/sub-P027_ses-01_task-object_run-01_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-object_run-02_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-rhyme_run-01_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-rhyme_run-02_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-scenemem_run-02_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-sentence_run-01_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-sentence_run-02_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-wordgen_run-01_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-wordgen_run-02_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-binder_run-01_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-binder_run-02_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-verbgen_run-01_bold.nii.gz', 'ses-01/func/sub-P027_ses-01_task-verbgen_run-02_bold.nii.gz']
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5ca772c3f546b60026ef00e9)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+SPIRAL_V20_HCP: 
+		[TR=4.2 TE=0.01003 shape=(64, 64, 612, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5ca772c4f546b6002cef9ad1)
+
+	BOLD_SceneMem_mb2: 
+		[TR=3 TE=0.035 shape=(990, 990, 132, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca772c4f546b6002af04289)
+
+	t2_tirm_tra_FLAIR: 
+		[TR=9.02 TE=0.132 shape=(384, 312, 64, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5ca772c4f546b6002cef9ad2)
+
+	BOLD_Object_v1: 
+		[TR=3 TE=0.035 shape=(990, 990, 90, -1) image_type=('ORIGINAL', 'PRIMARY', 'FMRI', 'NONE', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca772c4f546b60039f09611)
+
+	T1w_MPR: 
+		[TR=2.4 TE=0.00224 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'NORM', 'DIS3D', 'DIS2D')] (5ca772c4f546b60028ef11e3)
+
+	BOLD_Sentence_v1: 
+		[TR=2 TE=0.035 shape=(990, 990, 120, -1) image_type=('ORIGINAL', 'PRIMARY', 'FMRI', 'NONE', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca772c4f546b60039f09612)
+
+	BOLD_Wordgen_v1: 
+		[TR=3 TE=0.035 shape=(990, 990, 90, -1) image_type=('ORIGINAL', 'PRIMARY', 'FMRI', 'NONE', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca772c4f546b60039f09614)
+
+	BOLD_Rhyming_v1: 
+		[TR=3 TE=0.035 shape=(990, 990, 90, -1) image_type=('ORIGINAL', 'PRIMARY', 'FMRI', 'NONE', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca772c4f546b60039f09615)
+
+	BOLD_Binder_mb2: 
+		[TR=3 TE=0.035 shape=(990, 990, 97, -1) image_type=('ORIGINAL', 'PRIMARY', 'FMRI', 'NONE', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca772c4f546b6002cef9ad3)
+
+	B0map_v4: 
+		[TR=1.12 TE=0.00753 shape=(80, 80, 94, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cdb194308a9960059655268)
+
+	B0map_v4: 
+		[TR=1.12 TE=0.00507 shape=(80, 80, 94, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND', 'NORM')] (5cdb194308a9960059655268)
+
+	B0map_v4: 
+		[TR=1.12 TE=0.00753 shape=(80, 80, 47, -1) image_type=('ORIGINAL', 'PRIMARY', 'P', 'ND')] (5cdb194308a9960059655269)
+
+	SPIRAL_V20_HCP: 
+		[TR=4.2 TE=0.01003 shape=(64, 64, 68, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5d3f6d89aa5736005e739605)
+
+	T2w_SPC: 
+		[TR=3.2 TE=0.564 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'NORM', 'DIS3D', 'DIS2D', 'SH', 'FIL')] (5d432fb3ebd2e95380c363f5)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+T1w_MPR_55.nii.gz
+	sub-P028_ses-01_T1w.nii.gz -> sub-P028/ses-01/anat/sub-P028_ses-01_T1w.nii.gz
+DEBUG: 
+T2w_SPC.nii.gz
+	sub-P028_ses-01_T2w.nii.gz -> sub-P028/ses-01/anat/sub-P028_ses-01_T2w.nii.gz
+DEBUG: 
+t2_tirm_tra_FLAIR_3.nii.gz
+	sub-P028_ses-01_FLAIR.nii.gz -> sub-P028/ses-01/anat/sub-P028_ses-01_FLAIR.nii.gz
+DEBUG: 
+BOLD_Object_v1_31.nii.gz
+	sub-P028_ses-01_task-object_run-01_bold.nii.gz -> sub-P028/ses-01/func/sub-P028_ses-01_task-object_run-01_bold.nii.gz
+DEBUG: 
+BOLD_Rhyming_v1_24.nii.gz
+	sub-P028_ses-01_task-rhyme_run-01_bold.nii.gz -> sub-P028/ses-01/func/sub-P028_ses-01_task-rhyme_run-01_bold.nii.gz
+DEBUG: 
+BOLD_SceneMem_mb2_38.nii.gz
+	sub-P028_ses-01_task-scenemem_run-01_bold.nii.gz -> sub-P028/ses-01/func/sub-P028_ses-01_task-scenemem_run-01_bold.nii.gz
+DEBUG: 
+BOLD_Sentence_v1_10.nii.gz
+	sub-P028_ses-01_task-sentence_run-01_bold.nii.gz -> sub-P028/ses-01/func/sub-P028_ses-01_task-sentence_run-01_bold.nii.gz
+DEBUG: 
+BOLD_Wordgen_v1_17.nii.gz
+	sub-P028_ses-01_task-wordgen_run-01_bold.nii.gz -> sub-P028/ses-01/func/sub-P028_ses-01_task-wordgen_run-01_bold.nii.gz
+DEBUG: 
+BOLD_Binder_mb2_46.nii.gz
+	sub-P028_ses-01_task-binder_run-01_bold.nii.gz -> sub-P028/ses-01/func/sub-P028_ses-01_task-binder_run-01_bold.nii.gz
+DEBUG: 
+SPIRAL_V20_HCP_65.nii.gz
+	sub-P028_ses-01_asl.nii.gz -> sub-P028/ses-01/asl/sub-P028_ses-01_asl.nii.gz
+DEBUG: 
+SPIRAL_V20_HCP_64.nii.gz
+	sub-P028_ses-01_MZeroScan.nii.gz -> sub-P028/ses-01/asl/sub-P028_ses-01_MZeroScan.nii.gz
+DEBUG: 'sub-P028_ses-01_MZeroScan.nii.gz' IntendedFor: ['ses-01/asl/sub-P028_ses-01_asl.nii.gz']
+DEBUG: Applied!
+DEBUG: 
+B0map_v4_63_ph.nii.gz
+	sub-P028_ses-01_phasediff.nii.gz -> sub-P028/ses-01/fmap/sub-P028_ses-01_phasediff.nii.gz
+DEBUG: 'sub-P028_ses-01_phasediff.nii.gz' IntendedFor: ['ses-01/func/sub-P028_ses-01_task-object_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-object_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-rhyme_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-rhyme_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-scenemem_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-scenemem_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-sentence_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-sentence_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-wordgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-wordgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-binder_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-binder_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-verbgen_run-01_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-verbgen_run-02_bold.nii.gz',
+ 'ses-01/func/sub-P028_ses-01_task-rest_bold.nii.gz']
+DEBUG: Applied!
+DEBUG: B0map_v4_63_ph.nii.gz metadata: {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}
+DEBUG: 
+B0map_v4_62_e1.nii.gz
+	sub-P028_ses-01_magnitude1.nii.gz -> sub-P028/ses-01/fmap/sub-P028_ses-01_magnitude1.nii.gz
+DEBUG: 
+B0map_v4_62_e2.nii.gz
+	sub-P028_ses-01_magnitude2.nii.gz -> sub-P028/ses-01/fmap/sub-P028_ses-01_magnitude2.nii.gz
+DEBUG: Ensuring all intentions apply for acquisition B0map_v4_Series0063: B0map_v4_63_ph.nii.gz
+WARNING: IntendedFor values do not point to a BIDS file: ['ses-01/func/sub-P028_ses-01_task-object_run-02_bold.nii.gz', 'ses-01/func/sub-P028_ses-01_task-rhyme_run-02_bold.nii.gz', 'ses-01/func/sub-P028_ses-01_task-scenemem_run-02_bold.nii.gz', 'ses-01/func/sub-P028_ses-01_task-sentence_run-02_bold.nii.gz', 'ses-01/func/sub-P028_ses-01_task-wordgen_run-02_bold.nii.gz', 'ses-01/func/sub-P028_ses-01_task-binder_run-02_bold.nii.gz', 'ses-01/func/sub-P028_ses-01_task-verbgen_run-01_bold.nii.gz', 'ses-01/func/sub-P028_ses-01_task-verbgen_run-02_bold.nii.gz', 'ses-01/func/sub-P028_ses-01_task-rest_bold.nii.gz']
+DEBUG: Ensuring all intentions apply for acquisition SPIRAL_V20_HCP_M0_Series0064: SPIRAL_V20_HCP_64.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+
+/home/will/anaconda3/lib/python3.7/site-packages/fw_heudiconv/backend_funcs/query.py:4: UserWarning: The DICOM readers are highly experimental, unstable, and only work for Siemens time-series at the moment
+Please use with caution.  We would be grateful for your help in improving them
+  from nibabel.nicom.dicomwrappers import wrapper_from_data
+INFO: =================: fw-heudiconv curator starting up :=================
+
+INFO: Loading heuristic file...
+INFO: Querying Flywheel server...
+DEBUG: Found project: presurgicalEpilepsy (5c9e789df546b60028eee77d)
+DEBUG: Found sessions:
+	ses-01 (5ca65fdbf546b6002af03a6f)
+INFO: Applying heuristic to ses-01 (1/1)...
+DEBUG: Found SeqInfos:
+BOLD_Wordgen_v1: 
+		[TR=3 TE=0.035 shape=(990, 990, 90, -1) image_type=('ORIGINAL', 'PRIMARY', 'FMRI', 'NONE', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca65fdbf546b6002cef9612)
+
+	T1w_MPR: 
+		[TR=2.4 TE=0.00224 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'NORM', 'DIS3D', 'DIS2D')] (5ca65fdbf546b60029ef0f60)
+
+	t2_tirm_tra_FLAIR: 
+		[TR=9.02 TE=0.132 shape=(384, 312, 64, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'ND')] (5ca65fdbf546b6002def3950)
+
+	BOLD_Object_v1: 
+		[TR=3 TE=0.035 shape=(990, 990, 90, -1) image_type=('ORIGINAL', 'PRIMARY', 'FMRI', 'NONE', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca65fdbf546b60029ef0f61)
+
+	BOLD_Sentence_v1: 
+		[TR=2 TE=0.035 shape=(990, 990, 120, -1) image_type=('ORIGINAL', 'PRIMARY', 'FMRI', 'NONE', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca65fdbf546b60027ef4609)
+
+	BOLD_Rhyming_v1: 
+		[TR=3 TE=0.035 shape=(990, 990, 90, -1) image_type=('ORIGINAL', 'PRIMARY', 'FMRI', 'NONE', 'MB', 'ND', 'NORM', 'MOSAIC')] (5ca65fdbf546b60027ef460a)
+
+	T2w_SPC: 
+		[TR=3.2 TE=0.564 shape=(320, 300, 208, -1) image_type=('ORIGINAL', 'PRIMARY', 'M', 'NORM', 'DIS3D', 'DIS2D', 'SH', 'FIL')] (5d432f9cebd2e95380c35dd5)
+
+INFO: Processing IntendedFor fields based on heuristic file
+DEBUG: Intention map: [('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff',
+  ['{session}/func/sub-{subject}_{session}_task-object_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-object_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rhyme_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-scenemem_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-sentence_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-wordgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-binder_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-01_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-verbgen_run-02_bold.nii.gz',
+   '{session}/func/sub-{subject}_{session}_task-rest_bold.nii.gz']),
+ ('sub-{subject}/{session}/asl/sub-{subject}_{session}_MZeroScan',
+  ['{session}/asl/sub-{subject}_{session}_asl.nii.gz'])]
+INFO: Processing Medatata fields based on heuristic file
+DEBUG: Metadata extras: defaultdict(<class 'list'>, {('sub-{subject}/{session}/fmap/sub-{subject}_{session}_phasediff', ('nii.gz',), None): {'EchoTime1': 0.00507, 'EchoTime2': 0.00753}})
+INFO: Applying changes to files...
+DEBUG: 
+T1w_MPR_4.nii.gz
+	sub-P029_ses-01_T1w.nii.gz -> sub-P029/ses-01/anat/sub-P029_ses-01_T1w.nii.gz
+DEBUG: 
+T2w_SPC.nii.gz
+	sub-P029_ses-01_T2w.nii.gz -> sub-P029/ses-01/anat/sub-P029_ses-01_T2w.nii.gz
+DEBUG: 
+t2_tirm_tra_FLAIR_3.nii.gz
+	sub-P029_ses-01_FLAIR.nii.gz -> sub-P029/ses-01/anat/sub-P029_ses-01_FLAIR.nii.gz
+DEBUG: 
+BOLD_Object_v1_34.nii.gz
+	sub-P029_ses-01_task-object_run-01_bold.nii.gz -> sub-P029/ses-01/func/sub-P029_ses-01_task-object_run-01_bold.nii.gz
+DEBUG: 
+BOLD_Rhyming_v1_27.nii.gz
+	sub-P029_ses-01_task-rhyme_run-01_bold.nii.gz -> sub-P029/ses-01/func/sub-P029_ses-01_task-rhyme_run-01_bold.nii.gz
+DEBUG: 
+BOLD_Sentence_v1_10.nii.gz
+	sub-P029_ses-01_task-sentence_run-01_bold.nii.gz -> sub-P029/ses-01/func/sub-P029_ses-01_task-sentence_run-01_bold.nii.gz
+DEBUG: 
+BOLD_Wordgen_v1_20.nii.gz
+	sub-P029_ses-01_task-wordgen_run-01_bold.nii.gz -> sub-P029/ses-01/func/sub-P029_ses-01_task-wordgen_run-01_bold.nii.gz
+INFO: Done!
+INFO: ===================: Exiting fw-heudiconv curator :===================
+
+

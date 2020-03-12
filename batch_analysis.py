@@ -8,6 +8,7 @@ import flywheel
 import json
 import argparse
 import datetime
+import re
 
 # Create client, define project
 fw = flywheel.Client()
@@ -40,7 +41,7 @@ analysis_label = args.label
 
 # set date for label
 x = datetime.datetime.now()
-date_str = '%s-%s-%s %s:%s' % (x.month, x.day, x.year, x.hour, x.minute)
+date_str = '%s-%s-%s' % (x.year, x.month, x.day)
 
 # Define containers & files
 xcpgear = fw.lookup('gears/xcpengine-fw')
@@ -54,6 +55,9 @@ with open(config) as f:
     config_dict = json.load(f)
 
 slabel_list = [line.rstrip('\n').split()[0] for line in open(subject_list)]
+
+if "<date>" in analysis_label:
+    analysis_label = re.sub('<date>', date_str, analysis_label)
 
 def run_xcp(configuration):
     if analysis_label is None:
