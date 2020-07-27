@@ -105,7 +105,7 @@ def infotodict(seqinfo):
             get_both_series(binder_run1, binder_run2,s)
         elif "verbgen" in protocol:
             get_both_series(verbgen_run1, verbgen_run2,s)
-        elif "rest" in protocol and "asl" not in protocol:
+        elif "restBOLD" in protocol and "asl" not in protocol:
             get_series(rest,s)
         elif "spiral" in protocol:
             if s.series_description.endswith("_ASL"):

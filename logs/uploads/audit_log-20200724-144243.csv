@@ -1,0 +1,4 @@
+Source Path,Flywheel Path,Failed,Message
+/tmp/clusterFW-O0NKxv,,,Begin import scan
+/davis/presurgicalEpilepsy/P091/presurgery/BOLD_TOPUP_mb2_Series0038/dicom,davis/presurgicalEpilepsy/P091/presurgery/BOLD_TOPUP_mb2_Series0038/files/BOLD_TOPUP_mb2_Series0038.dicom.zip,false,
+/davis/presurgicalEpilepsy/P091/presurgery/MULTISHELL_TOPUP_mb2_Series0070/dicom,davis/presurgicalEpilepsy/P091/presurgery/MULTISHELL_TOPUP_mb2_Series0070/files/MULTISHELL_TOPUP_mb2_Series0070.dicom.zip,false,

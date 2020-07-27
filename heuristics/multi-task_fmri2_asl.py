@@ -10,8 +10,13 @@ t1w = create_key(
     'sub-{subject}/ses-{session}/anat/sub-{subject}_ses-{session}_T1w')
 t2w = create_key(
      'sub-{subject}/ses-{session}/anat/sub-{subject}_ses-{session}_T2w')
+t2_2d = create_key(
+     'sub-{subject}/ses-{session}/anat/sub-{subject}_ses-{session}_acq-2D_T2w')
 flair = create_key(
     'sub-{subject}/ses-{session}/anat/sub-{subject}_ses-{session}_FLAIR')
+flair2 = create_key(
+    'sub-{subject}/ses-{session}/anat/sub-{subject}_ses-{session}_acq-3D_FLAIR')
+
 # task fMRI
 object_run1 = create_key(
     'sub-{subject}/ses-{session}/func/sub-{subject}_ses-{session}_task-object_run-01_bold')
@@ -46,27 +51,36 @@ rest = create_key(
 
 # ASL scans
 asl = create_key(
-     'sub-{subject}/ses-{session}/asl/sub-{subject}_ses-{session}_asl')
+     'sub-{subject}/ses-{session}/perf/sub-{subject}_ses-{session}_asl')
 m0 = create_key(
-    'sub-{subject}/ses-{session}/asl/sub-{subject}_ses-{session}_m0scan')
+    'sub-{subject}/ses-{session}/perf/sub-{subject}_ses-{session}_m0scan')
 mean_perf = create_key(
-    'sub-{subject}/ses-{session}/asl/sub-{subject}_ses-{session}_CBF')
+    'sub-{subject}/ses-{session}/perf/sub-{subject}_ses-{session}_CBF')
+
+# Diffusion
+dwi = create_key(
+   'sub-{subject}/{session}/dwi/sub-{subject}_{session}_acq-multiband_dwi')
 
 # Field maps
 b0_mag = create_key(
    'sub-{subject}/ses-{session}/fmap/sub-{subject}_ses-{session}_magnitude{item}')
 b0_phase = create_key(
    'sub-{subject}/ses-{session}/fmap/sub-{subject}_ses-{session}_phasediff')
+pe_rev = create_key(
+    'sub-{subject}/{session}/fmap/sub-{subject}_{session}_acq-multishell_dir-AP_epi')
+bold_tu = create_key(
+    'sub-{subject}/{session}/fmap/sub-{subject}_{session}_acq-bold_dir-AP_epi')
 
 
 def infotodict(seqinfo):
 
     last_run = len(seqinfo)
 
-    info = {t1w:[], t2w:[], flair:[], object_run1: [], object_run2: [], rhyme_run1: [],
-            rhyme_run2: [], scenemem_run1: [], scenemem_run2: [], sentence_run1: [],
-            sentence_run2: [], wordgen_run1: [], wordgen_run2: [], binder_run1: [],
-            binder_run2:[], verbgen_run1: [], verbgen_run2: [], rest: [], asl: [],
+    info = {t1w:[], t2w:[], t2_2d:[], flair:[], flair2:[], pe_rev: [],dwi:[],
+            object_run1: [], object_run2: [], rhyme_run1: [], rhyme_run2: [],
+            scenemem_run1: [], scenemem_run2: [], sentence_run1: [], sentence_run2: [],
+            wordgen_run1: [], wordgen_run2: [], binder_run1: [], binder_run2:[],
+            verbgen_run1: [], verbgen_run2: [], rest: [], bold_tu: [], asl: [],
             m0: [], mean_perf: [], b0_phase: [], b0_mag: []}
 
 # sometimes patients struggle with a task the first time around (or something
@@ -87,10 +101,20 @@ def infotodict(seqinfo):
         protocol = s.protocol_name.lower()
         if any(id in protocol for id in ["t1w", "t1", "mprage_t"]):
             get_series(t1w,s)
-        elif "flair" in protocol:
-            get_series(flair,s)
-        elif any(id in protocol for id in ["t2w", "t2"]):
+        elif "t2w_spc" in protocol:
             get_series(t2w,s)
+        elif "t2_2d" in protocol:
+            get_series(t2_2d, s)
+        elif "tra_flair" in protocol:
+            get_series(flair,s)
+        elif "flair" in protocol and "3d" in protocol:
+            get_series(flair2,s)
+
+        elif "topup" in protocol and "BOLD" not in s.series_description:
+            get_series(pe_rev, s)
+        elif "multishell" in protocol and not s.is_derived:
+            get_series(dwi, s)
+
         elif "object" in protocol:
             get_both_series(object_run1,object_run2,s)
         elif "rhyming" in protocol:
@@ -105,13 +129,17 @@ def infotodict(seqinfo):
             get_both_series(binder_run1, binder_run2,s)
         elif "verbgen" in protocol:
             get_both_series(verbgen_run1, verbgen_run2,s)
-        elif "rest" in protocol and "asl" not in protocol:
+        elif "restBOLD" in protocol and "asl" not in protocol:
             get_series(rest,s)
+        elif "topup" in protocol and "MULTISHELL" not in s.series_description:
+            get_series(bold_tu, s)
+
         elif "spiral" in protocol:
             if s.series_description.endswith("_ASL"):
                 get_series(asl,s)
             elif s.series_description.endswith("_M0"):
                 get_series(m0,s)
+
         elif "b0map" in protocol:
                 if "P" in s.image_type:
                     get_series(b0_phase,s)
@@ -120,11 +148,48 @@ def infotodict(seqinfo):
 
     return info
 
+
+def AttachToSession():
+
+    NUM_VOLUMES=18
+    data = ['label', 'control'] * NUM_VOLUMES
+    data = '\n'.join(data)
+    data = 'volume_type\n' + data # the data is now a string; perfect!
+
+    output_file = {
+      'name': '{subject}_{session}_aslcontext.tsv',
+      'data': data,
+      'type': 'text/tab-separated-values'
+    }
+
+    return output_file
+
 MetadataExtras = {
    b0_phase: {
        "EchoTime1": 0.00507,
        "EchoTime2": 0.00753
-   }
+   },
+   asl: {
+   "PulseSequenceType": "3D_SPIRAL",
+       "PulseSequenceDetails" : "WIP" ,
+       "LabelingType": "PCASL",
+       "LabelingDuration": 1.8,
+       "PostLabelingDelay": 1.8,
+       "BackgroundSuppression": True,
+       "BackgroundSuppressionNumberPulses": 2,
+       "M0":10,
+       "LabelingSlabLocation":"X",
+       "LabelingOrientation":"transversal",
+       "LabelingDistance":105,
+       "AverageLabelingGradient": 10,
+       "SliceSelectiveLabelingGradient":45,
+       "AverageB1LabelingPulses": 0,
+       "AcquisitionDuration":123,
+       "VascularCrushing": False,
+       "PulseDuration": 0.0005,
+       "InterPulseSpacing":4,
+       "PCASLType":"unbalanced",
+       "LabelingEfficiency":0.72}
 }
 
 IntendedFor = {
@@ -145,5 +210,9 @@ IntendedFor = {
     'ses-{session}/func/sub-{subject}_ses-{session}_task-verbgen_run-02_bold.nii.gz',
     'ses-{session}/func/sub-{subject}_ses-{session}_task-rest_bold.nii.gz'],
 
-    m0: [ 'sub-{subject}/ses-{session}/asl/sub-{subject}_ses-{session}_asl.nii.gz' ],
+    m0: [ 'sub-{subject}/ses-{session}/perf/sub-{subject}_ses-{session}_asl.nii.gz' ],
+
+    pe_rev: [
+        '{session}/dwi/sub-{subject}_{session}_acq-multiband_dwi.nii.gz',
+    ]
 }

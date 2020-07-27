@@ -1,0 +1,16 @@
+Source Path,Flywheel Path,Failed,Message
+/tmp/clusterFW-fLkRQi,,,Begin import scan
+/davis/presurgicalEpilepsy/P090/ses-01/B0map_v4_Series0048/dicom,davis/presurgicalEpilepsy/P090/ses-01/B0map_v4_Series0048/files/B0map_v4_Series0048.dicom.zip,false,
+/davis/presurgicalEpilepsy/P090/ses-01/SPIRAL_V20_HCP_M0_Series0051/dicom,davis/presurgicalEpilepsy/P090/ses-01/SPIRAL_V20_HCP_M0_Series0051/files/SPIRAL_V20_HCP_M0_Series0051.dicom.zip,false,
+/davis/presurgicalEpilepsy/P090/ses-01/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P090/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+/davis/presurgicalEpilepsy/P090/ses-01/B0map_v4_Series0049/dicom,davis/presurgicalEpilepsy/P090/ses-01/B0map_v4_Series0049/files/B0map_v4_Series0049.dicom.zip,false,
+/davis/presurgicalEpilepsy/P090/ses-01/FLAIR_3D_Series0043/dicom,davis/presurgicalEpilepsy/P090/ses-01/FLAIR_3D_Series0043/files/FLAIR_3D_Series0043.dicom.zip,false,
+12,davis/presurgicalEpilepsy/P090/ses-01/BOLD_Rhyming_v1_Series0020/files/BOLD_Rhyming_v1_Series0020.dicom.zip,false,
+13,davis/presurgicalEpilepsy/P090/ses-01/BOLD_Object_v1_Series0028/files/BOLD_Object_v1_Series0028.dicom.zip,false,
+19,davis/presurgicalEpilepsy/P090/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,false,
+/davis/presurgicalEpilepsy/P090/ses-01/T2w_SPC_Series0042/dicom,davis/presurgicalEpilepsy/P090/ses-01/T2w_SPC_Series0042/files/T2w_SPC_Series0042.dicom.zip,false,
+/davis/presurgicalEpilepsy/P090/ses-01/T1w_MPR_Series0041/dicom,davis/presurgicalEpilepsy/P090/ses-01/T1w_MPR_Series0041/files/T1w_MPR_Series0041.dicom.zip,false,
+/davis/presurgicalEpilepsy/P090/ses-01/SPIRAL_V20_HCP_ASL_Series0052/dicom,davis/presurgicalEpilepsy/P090/ses-01/SPIRAL_V20_HCP_ASL_Series0052/files/SPIRAL_V20_HCP_ASL_Series0052.dicom.zip,false,
+17,davis/presurgicalEpilepsy/P090/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,false,
+14,davis/presurgicalEpilepsy/P090/ses-01/BOLD_SceneMem_mb2_Series0037/files/BOLD_SceneMem_mb2_Series0037.dicom.zip,false,
+8,davis/presurgicalEpilepsy/P090/ses-01/HCP_restBOLD_Series0050/files/HCP_restBOLD_Series0050.dicom.zip,false,

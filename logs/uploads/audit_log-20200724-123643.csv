@@ -1,0 +1,4 @@
+Source Path,Flywheel Path,Failed,Message
+/tmp/clusterFW-VcmLIi,,,Begin import scan
+/davis/presurgicalEpilepsy/P091/presurgery/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P091/presurgery/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+/davis/presurgicalEpilepsy/P091/presurgery/FLAIR_3D_Series0058/dicom,davis/presurgicalEpilepsy/P091/presurgery/FLAIR_3D_Series0058/files/FLAIR_3D_Series0058.dicom.zip,false,

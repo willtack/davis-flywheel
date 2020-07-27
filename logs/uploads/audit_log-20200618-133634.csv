@@ -1,0 +1,10 @@
+Source Path,Flywheel Path,Failed,Message
+/tmp/clusterFW-Rw76Vj,,,Begin import scan
+/davis/presurgicalEpilepsy/C016/ses-01/SPIRAL_V20_HCP_M0_Series0012/dicom,davis/presurgicalEpilepsy/C016/ses-01/SPIRAL_V20_HCP_M0_Series0012/files/SPIRAL_V20_HCP_M0_Series0012.dicom.zip,false,
+/davis/presurgicalEpilepsy/C016/ses-01/B0map_v4_Series0010/dicom,davis/presurgicalEpilepsy/C016/ses-01/B0map_v4_Series0010/files/B0map_v4_Series0010.dicom.zip,false,
+/davis/presurgicalEpilepsy/C016/ses-01/FLAIR_3D_Series0004/dicom,davis/presurgicalEpilepsy/C016/ses-01/FLAIR_3D_Series0004/files/FLAIR_3D_Series0004.dicom.zip,false,
+/davis/presurgicalEpilepsy/C016/ses-01/B0map_v4_Series0009/dicom,davis/presurgicalEpilepsy/C016/ses-01/B0map_v4_Series0009/files/B0map_v4_Series0009.dicom.zip,false,
+/davis/presurgicalEpilepsy/C016/ses-01/T2w_SPC_Series0003/dicom,davis/presurgicalEpilepsy/C016/ses-01/T2w_SPC_Series0003/files/T2w_SPC_Series0003.dicom.zip,false,
+/davis/presurgicalEpilepsy/C016/ses-01/SPIRAL_V20_HCP_ASL_Series0013/dicom,davis/presurgicalEpilepsy/C016/ses-01/SPIRAL_V20_HCP_ASL_Series0013/files/SPIRAL_V20_HCP_ASL_Series0013.dicom.zip,false,
+/davis/presurgicalEpilepsy/C016/ses-01/T1w_MPR_Series0002/dicom,davis/presurgicalEpilepsy/C016/ses-01/T1w_MPR_Series0002/files/T1w_MPR_Series0002.dicom.zip,false,
+7,davis/presurgicalEpilepsy/C016/ses-01/HCP_restBOLD_Series0011/files/HCP_restBOLD_Series0011.dicom.zip,false,

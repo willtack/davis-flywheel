@@ -1,0 +1,178 @@
+Source Path,Flywheel Path,Failed,Message
+/tmp/clusterFW-zePmTZ,,,Begin import scan
+/davis/presurgicalEpilepsy/P091/ses-01/B0map_v4_Series0064/dicom,davis/presurgicalEpilepsy/P091/ses-01/B0map_v4_Series0064/files/B0map_v4_Series0064.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P091/ses-01/T2w_SPC_Series0057/dicom,davis/presurgicalEpilepsy/P091/ses-01/T2w_SPC_Series0057/files/T2w_SPC_Series0057.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P091/ses-01/SPIRAL_V20_HCP_ASL_Series0067/dicom,davis/presurgicalEpilepsy/P091/ses-01/SPIRAL_V20_HCP_ASL_Series0067/files/SPIRAL_V20_HCP_ASL_Series0067.dicom.zip,true,Upload error
+13,davis/presurgicalEpilepsy/P091/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P091/ses-01/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P091/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,true,Upload error
+19,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Rhyming_v1_Series0020/files/BOLD_Rhyming_v1_Series0020.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P091/ses-01/B0map_v4_Series0063/dicom,davis/presurgicalEpilepsy/P091/ses-01/B0map_v4_Series0063/files/B0map_v4_Series0063.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P091/ses-01/SPIRAL_V20_HCP_M0_Series0066/dicom,davis/presurgicalEpilepsy/P091/ses-01/SPIRAL_V20_HCP_M0_Series0066/files/SPIRAL_V20_HCP_M0_Series0066.dicom.zip,false,
+/davis/presurgicalEpilepsy/P091/ses-01/T1w_MPR_Series0056/dicom,davis/presurgicalEpilepsy/P091/ses-01/T1w_MPR_Series0056/files/T1w_MPR_Series0056.dicom.zip,true,Upload error
+11,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Object_v1_Series0028/files/BOLD_Object_v1_Series0028.dicom.zip,true,Upload error
+12,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Wordgen_v1_Series0048/files/BOLD_Wordgen_v1_Series0048.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P095/ses-01/SPIRAL_V20_HCP_M0_Series0060/dicom,davis/presurgicalEpilepsy/P095/ses-01/SPIRAL_V20_HCP_M0_Series0060/files/SPIRAL_V20_HCP_M0_Series0060.dicom.zip,false,
+18,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P091/ses-01/FLAIR_3D_Series0058/dicom,davis/presurgicalEpilepsy/P091/ses-01/FLAIR_3D_Series0058/files/FLAIR_3D_Series0058.dicom.zip,false,
+/davis/presurgicalEpilepsy/P095/ses-01/T1w_MPR_Series0048/dicom,davis/presurgicalEpilepsy/P095/ses-01/T1w_MPR_Series0048/files/T1w_MPR_Series0048.dicom.zip,false,
+24,davis/presurgicalEpilepsy/P095/ses-01/BOLD_Object_v1_Series0036/files/BOLD_Object_v1_Series0036.dicom.zip,false,
+21,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Sentence_v1_Series0040/files/BOLD_Sentence_v1_Series0040.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P095/ses-01/SPIRAL_V20_HCP_ASL_Series0061/dicom,davis/presurgicalEpilepsy/P095/ses-01/SPIRAL_V20_HCP_ASL_Series0061/files/SPIRAL_V20_HCP_ASL_Series0061.dicom.zip,false,
+22,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P095/ses-01/B0map_v4_Series0057/dicom,davis/presurgicalEpilepsy/P095/ses-01/B0map_v4_Series0057/files/B0map_v4_Series0057.dicom.zip,false,
+/davis/presurgicalEpilepsy/P095/ses-01/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P095/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+/davis/presurgicalEpilepsy/P095/ses-01/B0map_v4_Series0056/dicom,davis/presurgicalEpilepsy/P095/ses-01/B0map_v4_Series0056/files/B0map_v4_Series0056.dicom.zip,false,
+/davis/presurgicalEpilepsy/P095/ses-01/FLAIR_3D_Series0050/dicom,davis/presurgicalEpilepsy/P095/ses-01/FLAIR_3D_Series0050/files/FLAIR_3D_Series0050.dicom.zip,false,
+/davis/presurgicalEpilepsy/P095/ses-01/T2w_SPC_Series0049/dicom,davis/presurgicalEpilepsy/P095/ses-01/T2w_SPC_Series0049/files/T2w_SPC_Series0049.dicom.zip,false,
+27,davis/presurgicalEpilepsy/P095/ses-01/BOLD_Rhyming_v1_Series0028/files/BOLD_Rhyming_v1_Series0028.dicom.zip,false,
+28,davis/presurgicalEpilepsy/P095/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,false,
+26,davis/presurgicalEpilepsy/P095/ses-01/BOLD_SceneMem_mb2_Series0044/files/BOLD_SceneMem_mb2_Series0044.dicom.zip,false,
+/davis/presurgicalEpilepsy/P098/ses-01/SPIRAL_V20_HCP_ASL_Series0051/dicom,davis/presurgicalEpilepsy/P098/ses-01/SPIRAL_V20_HCP_ASL_Series0051/files/SPIRAL_V20_HCP_ASL_Series0051.dicom.zip,false,
+25,davis/presurgicalEpilepsy/P095/ses-01/HCP_restBOLD_Series0059/files/HCP_restBOLD_Series0059.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P098/ses-01/B0map_v4_Series0048/dicom,davis/presurgicalEpilepsy/P098/ses-01/B0map_v4_Series0048/files/B0map_v4_Series0048.dicom.zip,false,
+29,davis/presurgicalEpilepsy/P095/ses-01/BOLD_Wordgen_v1_Series0020/files/BOLD_Wordgen_v1_Series0020.dicom.zip,true,Upload error
+20,davis/presurgicalEpilepsy/P091/ses-01/HCP_restBOLD_Series0065/files/HCP_restBOLD_Series0065.dicom.zip,true,Upload error
+17,davis/presurgicalEpilepsy/P095/ses-01/BOLD_Sentence_v1_Series0012/files/BOLD_Sentence_v1_Series0012.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P098/ses-01/SPIRAL_V20_HCP_M0_Series0050/dicom,davis/presurgicalEpilepsy/P098/ses-01/SPIRAL_V20_HCP_M0_Series0050/files/SPIRAL_V20_HCP_M0_Series0050.dicom.zip,false,
+/davis/presurgicalEpilepsy/P098/ses-01/FLAIR_3D_Series0042/dicom,davis/presurgicalEpilepsy/P098/ses-01/FLAIR_3D_Series0042/files/FLAIR_3D_Series0042.dicom.zip,false,
+/davis/presurgicalEpilepsy/P098/ses-01/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P098/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+/davis/presurgicalEpilepsy/P098/ses-01/T2w_SPC_Series0041/dicom,davis/presurgicalEpilepsy/P098/ses-01/T2w_SPC_Series0041/files/T2w_SPC_Series0041.dicom.zip,false,
+33,davis/presurgicalEpilepsy/P098/ses-01/BOLD_Object_v1_Series0028/files/BOLD_Object_v1_Series0028.dicom.zip,false,
+32,davis/presurgicalEpilepsy/P098/ses-01/BOLD_Rhyming_v1_Series0020/files/BOLD_Rhyming_v1_Series0020.dicom.zip,false,
+/davis/presurgicalEpilepsy/P098/ses-01/B0map_v4_Series0047/dicom,davis/presurgicalEpilepsy/P098/ses-01/B0map_v4_Series0047/files/B0map_v4_Series0047.dicom.zip,false,
+34,davis/presurgicalEpilepsy/P098/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,false,
+/davis/presurgicalEpilepsy/P092/ses-01/B0map_v4_Series0065/dicom,davis/presurgicalEpilepsy/P092/ses-01/B0map_v4_Series0065/files/B0map_v4_Series0065.dicom.zip,false,
+/davis/presurgicalEpilepsy/P098/ses-01/T1w_MPR_Series0040/dicom,davis/presurgicalEpilepsy/P098/ses-01/T1w_MPR_Series0040/files/T1w_MPR_Series0040.dicom.zip,false,
+36,davis/presurgicalEpilepsy/P098/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,false,
+31,davis/presurgicalEpilepsy/P098/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,false,
+/davis/presurgicalEpilepsy/P092/ses-01/SPIRAL_V20_HCP_M0_Series0067/dicom,davis/presurgicalEpilepsy/P092/ses-01/SPIRAL_V20_HCP_M0_Series0067/files/SPIRAL_V20_HCP_M0_Series0067.dicom.zip,false,
+/davis/presurgicalEpilepsy/P092/ses-01/SPIRAL_V20_HCP_ASL_Series0068/dicom,davis/presurgicalEpilepsy/P092/ses-01/SPIRAL_V20_HCP_ASL_Series0068/files/SPIRAL_V20_HCP_ASL_Series0068.dicom.zip,false,
+/davis/presurgicalEpilepsy/P092/ses-01/B0map_v4_Series0064/dicom,davis/presurgicalEpilepsy/P092/ses-01/B0map_v4_Series0064/files/B0map_v4_Series0064.dicom.zip,false,
+40,davis/presurgicalEpilepsy/P092/ses-01/BOLD_Object_v1_Series0028/files/BOLD_Object_v1_Series0028.dicom.zip,false,
+/davis/presurgicalEpilepsy/P092/ses-01/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P092/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+38,davis/presurgicalEpilepsy/P092/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,false,
+41,davis/presurgicalEpilepsy/P092/ses-01/BOLD_Rhyming_v1_Series0020/files/BOLD_Rhyming_v1_Series0020.dicom.zip,false,
+42,davis/presurgicalEpilepsy/P092/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,false,
+/davis/presurgicalEpilepsy/P092/ses-01/T1w_MPR_Series0057/dicom,davis/presurgicalEpilepsy/P092/ses-01/T1w_MPR_Series0057/files/T1w_MPR_Series0057.dicom.zip,false,
+/davis/presurgicalEpilepsy/P092/ses-01/FLAIR_3D_Series0059/dicom,davis/presurgicalEpilepsy/P092/ses-01/FLAIR_3D_Series0059/files/FLAIR_3D_Series0059.dicom.zip,false,
+/davis/presurgicalEpilepsy/P092/ses-01/T2w_SPC_Series0058/dicom,davis/presurgicalEpilepsy/P092/ses-01/T2w_SPC_Series0058/files/T2w_SPC_Series0058.dicom.zip,false,
+37,davis/presurgicalEpilepsy/P098/ses-01/HCP_restBOLD_Series0049/files/HCP_restBOLD_Series0049.dicom.zip,true,Upload error
+39,davis/presurgicalEpilepsy/P092/ses-01/HCP_restBOLD_Series0066/files/HCP_restBOLD_Series0066.dicom.zip,true,Upload error
+30,davis/presurgicalEpilepsy/P095/ses-01/HCP_restBOLD_Series0058/files/HCP_restBOLD_Series0058.dicom.zip,true,Upload error
+43,davis/presurgicalEpilepsy/P092/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,true,Upload error
+8,davis/presurgicalEpilepsy/P092/ses-01/BOLD_Wordgen_v1_Series0046/files/BOLD_Wordgen_v1_Series0046.dicom.zip,true,Upload error
+44,davis/presurgicalEpilepsy/P097/ses-01/BOLD_Wordgen_v1_Series0048/files/BOLD_Wordgen_v1_Series0048.dicom.zip,true,Upload error
+45,davis/presurgicalEpilepsy/P092/ses-01/BOLD_Sentence_v1_Series0038/files/BOLD_Sentence_v1_Series0038.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P097/ses-01/SPIRAL_V20_HCP_M0_Series0067/dicom,davis/presurgicalEpilepsy/P097/ses-01/SPIRAL_V20_HCP_M0_Series0067/files/SPIRAL_V20_HCP_M0_Series0067.dicom.zip,false,
+/davis/presurgicalEpilepsy/P097/ses-01/B0map_v4_Series0065/dicom,davis/presurgicalEpilepsy/P097/ses-01/B0map_v4_Series0065/files/B0map_v4_Series0065.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P097/ses-01/SPIRAL_V20_HCP_ASL_Series0068/dicom,davis/presurgicalEpilepsy/P097/ses-01/SPIRAL_V20_HCP_ASL_Series0068/files/SPIRAL_V20_HCP_ASL_Series0068.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P097/ses-01/B0map_v4_Series0064/dicom,davis/presurgicalEpilepsy/P097/ses-01/B0map_v4_Series0064/files/B0map_v4_Series0064.dicom.zip,false,
+/davis/presurgicalEpilepsy/P097/ses-01/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P097/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+49,davis/presurgicalEpilepsy/P097/ses-01/BOLD_Object_v1_Series0028/files/BOLD_Object_v1_Series0028.dicom.zip,false,
+50,davis/presurgicalEpilepsy/P097/ses-01/BOLD_Rhyming_v1_Series0020/files/BOLD_Rhyming_v1_Series0020.dicom.zip,false,
+/davis/presurgicalEpilepsy/P097/ses-01/T1w_MPR_Series0057/dicom,davis/presurgicalEpilepsy/P097/ses-01/T1w_MPR_Series0057/files/T1w_MPR_Series0057.dicom.zip,false,
+47,davis/presurgicalEpilepsy/P097/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,true,Upload error
+51,davis/presurgicalEpilepsy/P097/ses-01/BOLD_Sentence_v1_Series0040/files/BOLD_Sentence_v1_Series0040.dicom.zip,false,
+/davis/presurgicalEpilepsy/P097/ses-01/FLAIR_3D_Series0059/dicom,davis/presurgicalEpilepsy/P097/ses-01/FLAIR_3D_Series0059/files/FLAIR_3D_Series0059.dicom.zip,false,
+/davis/presurgicalEpilepsy/P097/ses-01/T2w_SPC_Series0058/dicom,davis/presurgicalEpilepsy/P097/ses-01/T2w_SPC_Series0058/files/T2w_SPC_Series0058.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/FLAIR_3D_Series0042/FLAIR_3D_Series0042/dicom,davis/presurgicalEpilepsy/P094/ses-01/FLAIR_3D_Series0042/files/FLAIR_3D_Series0042.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/SPIRAL_V20_HCP_ASL_Series0051/SPIRAL_V20_HCP_ASL_Series0051/dicom,davis/presurgicalEpilepsy/P094/ses-01/SPIRAL_V20_HCP_ASL_Series0051/files/SPIRAL_V20_HCP_ASL_Series0051.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/FLAIR_3D_Series0042/dicom,davis/presurgicalEpilepsy/P094/ses-01/FLAIR_3D_Series0042/files/FLAIR_3D_Series0042.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/B0map_v4_Series0048/B0map_v4_Series0048/dicom,davis/presurgicalEpilepsy/P094/ses-01/B0map_v4_Series0048/files/B0map_v4_Series0048.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/B0map_v4_Series0048/dicom,davis/presurgicalEpilepsy/P094/ses-01/B0map_v4_Series0048/files/B0map_v4_Series0048.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/SPIRAL_V20_HCP_ASL_Series0051/dicom,davis/presurgicalEpilepsy/P094/ses-01/SPIRAL_V20_HCP_ASL_Series0051/files/SPIRAL_V20_HCP_ASL_Series0051.dicom.zip,false,
+46,davis/presurgicalEpilepsy/P097/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/T2w_SPC_Series0041/T2w_SPC_Series0041/dicom,davis/presurgicalEpilepsy/P094/ses-01/T2w_SPC_Series0041/files/T2w_SPC_Series0041.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/T2w_SPC_Series0041/dicom,davis/presurgicalEpilepsy/P094/ses-01/T2w_SPC_Series0041/files/T2w_SPC_Series0041.dicom.zip,false,
+53,davis/presurgicalEpilepsy/P097/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/SPIRAL_V20_HCP_M0_Series0050/dicom,davis/presurgicalEpilepsy/P094/ses-01/SPIRAL_V20_HCP_M0_Series0050/files/SPIRAL_V20_HCP_M0_Series0050.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/SPIRAL_V20_HCP_M0_Series0050/SPIRAL_V20_HCP_M0_Series0050/dicom,davis/presurgicalEpilepsy/P094/ses-01/SPIRAL_V20_HCP_M0_Series0050/files/SPIRAL_V20_HCP_M0_Series0050.dicom.zip,false,
+56,davis/presurgicalEpilepsy/P094/ses-01/BOLD_Object_v1_Series0028/files/BOLD_Object_v1_Series0028.dicom.zip,false,
+57,davis/presurgicalEpilepsy/P094/ses-01/BOLD_Object_v1_Series0028/files/BOLD_Object_v1_Series0028.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P094/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/t2_tirm_tra_FLAIR_Series0003/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P094/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+54,davis/presurgicalEpilepsy/P094/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,true,Upload error
+58,davis/presurgicalEpilepsy/P094/ses-01/BOLD_Rhyming_v1_Series0020/files/BOLD_Rhyming_v1_Series0020.dicom.zip,false,
+55,davis/presurgicalEpilepsy/P094/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,false,
+59,davis/presurgicalEpilepsy/P094/ses-01/BOLD_Rhyming_v1_Series0020/files/BOLD_Rhyming_v1_Series0020.dicom.zip,false,
+10,davis/presurgicalEpilepsy/P094/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,false,
+5,davis/presurgicalEpilepsy/P094/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/B0map_v4_Series0047/dicom,davis/presurgicalEpilepsy/P094/ses-01/B0map_v4_Series0047/files/B0map_v4_Series0047.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/B0map_v4_Series0047/B0map_v4_Series0047/dicom,davis/presurgicalEpilepsy/P094/ses-01/B0map_v4_Series0047/files/B0map_v4_Series0047.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/T1w_MPR_Series0040/dicom,davis/presurgicalEpilepsy/P094/ses-01/T1w_MPR_Series0040/files/T1w_MPR_Series0040.dicom.zip,false,
+64,davis/presurgicalEpilepsy/P094/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,false,
+/davis/presurgicalEpilepsy/P093/ses-01/SPIRAL_V20_HCP_M0_Series0059/dicom,davis/presurgicalEpilepsy/P093/ses-01/SPIRAL_V20_HCP_M0_Series0059/files/SPIRAL_V20_HCP_M0_Series0059.dicom.zip,false,
+/davis/presurgicalEpilepsy/P093/ses-01/FLAIR_3D_Series0051/dicom,davis/presurgicalEpilepsy/P093/ses-01/FLAIR_3D_Series0051/files/FLAIR_3D_Series0051.dicom.zip,false,
+/davis/presurgicalEpilepsy/P094/ses-01/T1w_MPR_Series0040/T1w_MPR_Series0040/dicom,davis/presurgicalEpilepsy/P094/ses-01/T1w_MPR_Series0040/files/T1w_MPR_Series0040.dicom.zip,false,
+/davis/presurgicalEpilepsy/P093/ses-01/T1w_MPR_Series0049/dicom,davis/presurgicalEpilepsy/P093/ses-01/T1w_MPR_Series0049/files/T1w_MPR_Series0049.dicom.zip,false,
+65,davis/presurgicalEpilepsy/P094/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,false,
+/davis/presurgicalEpilepsy/P093/ses-01/T2w_SPC_Series0050/dicom,davis/presurgicalEpilepsy/P093/ses-01/T2w_SPC_Series0050/files/T2w_SPC_Series0050.dicom.zip,false,
+48,davis/presurgicalEpilepsy/P097/ses-01/HCP_restBOLD_Series0066/files/HCP_restBOLD_Series0066.dicom.zip,true,Upload error
+66,davis/presurgicalEpilepsy/P093/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P093/ses-01/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P093/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+62,davis/presurgicalEpilepsy/P093/ses-01/BOLD_Object_v1_Series0028/files/BOLD_Object_v1_Series0028.dicom.zip,false,
+/davis/presurgicalEpilepsy/P093/ses-01/B0map_v4_Series0057/dicom,davis/presurgicalEpilepsy/P093/ses-01/B0map_v4_Series0057/files/B0map_v4_Series0057.dicom.zip,false,
+/davis/presurgicalEpilepsy/P093/ses-01/B0map_v4_Series0056/dicom,davis/presurgicalEpilepsy/P093/ses-01/B0map_v4_Series0056/files/B0map_v4_Series0056.dicom.zip,false,
+/davis/presurgicalEpilepsy/P093/ses-01/SPIRAL_V20_HCP_ASL_Series0060/dicom,davis/presurgicalEpilepsy/P093/ses-01/SPIRAL_V20_HCP_ASL_Series0060/files/SPIRAL_V20_HCP_ASL_Series0060.dicom.zip,false,
+67,davis/presurgicalEpilepsy/P093/ses-01/BOLD_Rhyming_v1_Series0020/files/BOLD_Rhyming_v1_Series0020.dicom.zip,false,
+68,davis/presurgicalEpilepsy/P093/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,false,
+69,davis/presurgicalEpilepsy/P093/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,false,
+/davis/presurgicalEpilepsy/P096/ses-01/B0map_v4_Series0048/dicom,davis/presurgicalEpilepsy/P096/ses-01/B0map_v4_Series0048/files/B0map_v4_Series0048.dicom.zip,false,
+70,davis/presurgicalEpilepsy/P093/ses-01/BOLD_Sentence_v1_Series0038/files/BOLD_Sentence_v1_Series0038.dicom.zip,false,
+74,davis/presurgicalEpilepsy/P096/ses-01/BOLD_Object_v1_Series0028/files/BOLD_Object_v1_Series0028.dicom.zip,false,
+/davis/presurgicalEpilepsy/P096/ses-01/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P096/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+63,davis/presurgicalEpilepsy/P094/ses-01/HCP_restBOLD_Series0049/files/HCP_restBOLD_Series0049.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P096/ses-01/SPIRAL_V20_HCP_M0_Series0051/dicom,davis/presurgicalEpilepsy/P096/ses-01/SPIRAL_V20_HCP_M0_Series0051/files/SPIRAL_V20_HCP_M0_Series0051.dicom.zip,false,
+/davis/presurgicalEpilepsy/P096/ses-01/FLAIR_3D_Series0043/dicom,davis/presurgicalEpilepsy/P096/ses-01/FLAIR_3D_Series0043/files/FLAIR_3D_Series0043.dicom.zip,false,
+61,davis/presurgicalEpilepsy/P094/ses-01/HCP_restBOLD_Series0049/files/HCP_restBOLD_Series0049.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P096/ses-01/B0map_v4_Series0049/dicom,davis/presurgicalEpilepsy/P096/ses-01/B0map_v4_Series0049/files/B0map_v4_Series0049.dicom.zip,false,
+75,davis/presurgicalEpilepsy/P096/ses-01/BOLD_Rhyming_v1_Series0020/files/BOLD_Rhyming_v1_Series0020.dicom.zip,false,
+/davis/presurgicalEpilepsy/P096/ses-01/T2w_SPC_Series0042/dicom,davis/presurgicalEpilepsy/P096/ses-01/T2w_SPC_Series0042/files/T2w_SPC_Series0042.dicom.zip,false,
+73,davis/presurgicalEpilepsy/P096/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P096/ses-01/SPIRAL_V20_HCP_ASL_Series0052/dicom,davis/presurgicalEpilepsy/P096/ses-01/SPIRAL_V20_HCP_ASL_Series0052/files/SPIRAL_V20_HCP_ASL_Series0052.dicom.zip,false,
+/davis/presurgicalEpilepsy/P096/ses-01/T1w_MPR_Series0041/dicom,davis/presurgicalEpilepsy/P096/ses-01/T1w_MPR_Series0041/files/T1w_MPR_Series0041.dicom.zip,false,
+72,davis/presurgicalEpilepsy/P096/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,true,Upload error
+76,davis/presurgicalEpilepsy/P096/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,true,Upload error
+71,davis/presurgicalEpilepsy/P093/ses-01/HCP_restBOLD_Series0058/files/HCP_restBOLD_Series0058.dicom.zip,true,Upload error
+77,davis/presurgicalEpilepsy/P096/ses-01/HCP_restBOLD_Series0050/files/HCP_restBOLD_Series0050.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P091/ses-01/B0map_v4_Series0064/dicom,davis/presurgicalEpilepsy/P091/ses-01/B0map_v4_Series0064/files/B0map_v4_Series0064.dicom.zip,false,
+/davis/presurgicalEpilepsy/P091/ses-01/t2_tirm_tra_FLAIR_Series0003/dicom,davis/presurgicalEpilepsy/P091/ses-01/t2_tirm_tra_FLAIR_Series0003/files/t2_tirm_tra_FLAIR_Series0003.dicom.zip,false,
+/davis/presurgicalEpilepsy/P091/ses-01/SPIRAL_V20_HCP_ASL_Series0067/dicom,davis/presurgicalEpilepsy/P091/ses-01/SPIRAL_V20_HCP_ASL_Series0067/files/SPIRAL_V20_HCP_ASL_Series0067.dicom.zip,false,
+/davis/presurgicalEpilepsy/P091/ses-01/T2w_SPC_Series0057/dicom,davis/presurgicalEpilepsy/P091/ses-01/T2w_SPC_Series0057/files/T2w_SPC_Series0057.dicom.zip,false,
+/davis/presurgicalEpilepsy/P091/ses-01/B0map_v4_Series0063/dicom,davis/presurgicalEpilepsy/P091/ses-01/B0map_v4_Series0063/files/B0map_v4_Series0063.dicom.zip,false,
+/davis/presurgicalEpilepsy/P091/ses-01/T1w_MPR_Series0056/dicom,davis/presurgicalEpilepsy/P091/ses-01/T1w_MPR_Series0056/files/T1w_MPR_Series0056.dicom.zip,false,
+19,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Rhyming_v1_Series0020/files/BOLD_Rhyming_v1_Series0020.dicom.zip,false,
+11,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Object_v1_Series0028/files/BOLD_Object_v1_Series0028.dicom.zip,false,
+12,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Wordgen_v1_Series0048/files/BOLD_Wordgen_v1_Series0048.dicom.zip,false,
+13,davis/presurgicalEpilepsy/P091/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,false,
+18,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,false,
+21,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Sentence_v1_Series0040/files/BOLD_Sentence_v1_Series0040.dicom.zip,false,
+22,davis/presurgicalEpilepsy/P091/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,false,
+29,davis/presurgicalEpilepsy/P095/ses-01/BOLD_Wordgen_v1_Series0020/files/BOLD_Wordgen_v1_Series0020.dicom.zip,false,
+17,davis/presurgicalEpilepsy/P095/ses-01/BOLD_Sentence_v1_Series0012/files/BOLD_Sentence_v1_Series0012.dicom.zip,false,
+25,davis/presurgicalEpilepsy/P095/ses-01/HCP_restBOLD_Series0059/files/HCP_restBOLD_Series0059.dicom.zip,true,Upload error
+20,davis/presurgicalEpilepsy/P091/ses-01/HCP_restBOLD_Series0065/files/HCP_restBOLD_Series0065.dicom.zip,true,Upload error
+37,davis/presurgicalEpilepsy/P098/ses-01/HCP_restBOLD_Series0049/files/HCP_restBOLD_Series0049.dicom.zip,true,Upload error
+43,davis/presurgicalEpilepsy/P092/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,false,
+8,davis/presurgicalEpilepsy/P092/ses-01/BOLD_Wordgen_v1_Series0046/files/BOLD_Wordgen_v1_Series0046.dicom.zip,false,
+39,davis/presurgicalEpilepsy/P092/ses-01/HCP_restBOLD_Series0066/files/HCP_restBOLD_Series0066.dicom.zip,true,Upload error
+/davis/presurgicalEpilepsy/P097/ses-01/B0map_v4_Series0065/dicom,davis/presurgicalEpilepsy/P097/ses-01/B0map_v4_Series0065/files/B0map_v4_Series0065.dicom.zip,false,
+/davis/presurgicalEpilepsy/P097/ses-01/SPIRAL_V20_HCP_ASL_Series0068/dicom,davis/presurgicalEpilepsy/P097/ses-01/SPIRAL_V20_HCP_ASL_Series0068/files/SPIRAL_V20_HCP_ASL_Series0068.dicom.zip,false,
+45,davis/presurgicalEpilepsy/P092/ses-01/BOLD_Sentence_v1_Series0038/files/BOLD_Sentence_v1_Series0038.dicom.zip,false,
+44,davis/presurgicalEpilepsy/P097/ses-01/BOLD_Wordgen_v1_Series0048/files/BOLD_Wordgen_v1_Series0048.dicom.zip,false,
+47,davis/presurgicalEpilepsy/P097/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,false,
+54,davis/presurgicalEpilepsy/P094/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,false,
+66,davis/presurgicalEpilepsy/P093/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,false,
+30,davis/presurgicalEpilepsy/P095/ses-01/HCP_restBOLD_Series0058/files/HCP_restBOLD_Series0058.dicom.zip,false,
+73,davis/presurgicalEpilepsy/P096/ses-01/BOLD_SceneMem_mb2_Series0036/files/BOLD_SceneMem_mb2_Series0036.dicom.zip,false,
+48,davis/presurgicalEpilepsy/P097/ses-01/HCP_restBOLD_Series0066/files/HCP_restBOLD_Series0066.dicom.zip,false,
+72,davis/presurgicalEpilepsy/P096/ses-01/BOLD_Wordgen_v1_Series0012/files/BOLD_Wordgen_v1_Series0012.dicom.zip,false,
+76,davis/presurgicalEpilepsy/P096/ses-01/BOLD_Sentence_v1_Series0004/files/BOLD_Sentence_v1_Series0004.dicom.zip,false,
+63,davis/presurgicalEpilepsy/P094/ses-01/HCP_restBOLD_Series0049/files/HCP_restBOLD_Series0049.dicom.zip,false,
+61,davis/presurgicalEpilepsy/P094/ses-01/HCP_restBOLD_Series0049/files/HCP_restBOLD_Series0049.dicom.zip,false,
+71,davis/presurgicalEpilepsy/P093/ses-01/HCP_restBOLD_Series0058/files/HCP_restBOLD_Series0058.dicom.zip,false,
+77,davis/presurgicalEpilepsy/P096/ses-01/HCP_restBOLD_Series0050/files/HCP_restBOLD_Series0050.dicom.zip,false,
+37,davis/presurgicalEpilepsy/P098/ses-01/HCP_restBOLD_Series0049/files/HCP_restBOLD_Series0049.dicom.zip,false,
+25,davis/presurgicalEpilepsy/P095/ses-01/HCP_restBOLD_Series0059/files/HCP_restBOLD_Series0059.dicom.zip,false,
+20,davis/presurgicalEpilepsy/P091/ses-01/HCP_restBOLD_Series0065/files/HCP_restBOLD_Series0065.dicom.zip,false,
+39,davis/presurgicalEpilepsy/P092/ses-01/HCP_restBOLD_Series0066/files/HCP_restBOLD_Series0066.dicom.zip,false,

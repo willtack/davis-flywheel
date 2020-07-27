@@ -1,0 +1,4 @@
+Source Path,Flywheel Path,Failed,Message
+/tmp/clusterFW-0GxEOa,,,Begin import scan
+/davis/presurgicalEpilepsy/P091/ses-01/SPIRAL_V20_HCP_M0_Series0066/dicom,davis/presurgicalEpilepsy/P091/ses-01/SPIRAL_V20_HCP_M0_Series0066/files/SPIRAL_V20_HCP_M0_Series0066.dicom.zip,false,
+/davis/presurgicalEpilepsy/P091/ses-01/SPIRAL_V20_HCP_ASL_Series0067/dicom,davis/presurgicalEpilepsy/P091/ses-01/SPIRAL_V20_HCP_ASL_Series0067/files/SPIRAL_V20_HCP_ASL_Series0067.dicom.zip,false,
