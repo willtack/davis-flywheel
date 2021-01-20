@@ -53,7 +53,7 @@ os.makedirs(logdir, exist_ok=True)
 
 # Define containers & files
 xcpgear = fw.lookup('gears/xcpengine-fw')
-fmriprepgear = fw.lookup('gears/fmriprep-fwheudiconv')
+fmriprepgear = fw.lookup('gears/fmriprep-fwheudiconv/0.3.4_20.0.5')
 linguagear = fw.lookup('gears/presurg')
 license_file = project.get_file('freesurfer_license.txt')
 design_file = project.get_file('fc-36p_spkreg_sb.dsn') #TODO: make this an option
@@ -131,7 +131,8 @@ def run_lingua_map(configuration):
             # Check if there is task-fMRI data
             bold_img = None
             for acq in ses.acquisitions():
-                if 'BOLD_Sentence' in acq.label or 'BOLD_Wordgen' in acq.label or 'BOLD_SceneMem' in acq.label:
+                # if 'BOLD_Sentence' in acq.label or 'BOLD_Wordgen' in acq.label or 'BOLD_SceneMem' in acq.label:
+                if 'BOLD_SceneMem' in acq.label:
                     bold_container=fw.get(acq.id)
                     for file in bold_container.files:
                         if '.nii.gz' in file.name:
@@ -143,12 +144,12 @@ def run_lingua_map(configuration):
             fprep = None
             try:
                 for analysis in ses.analyses:
-                    if analysis.files and "fmriprep034" in analysis.label:
+                    if analysis.files and "034" in analysis.label:
                         fprep = fw.get(analysis.id)
                 print("   Using %s" % (fprep.label))
 
                 for file in fprep.files:
-                    if "fmriprep" in file.name:
+                    if "fmriprep_sub" in file.name:
                         fmriprepdir = file
             except Exception as e:
                 print(e)

@@ -37,15 +37,15 @@ touch "${logFile}"
 if [[ ${execute} == true ]]; then
 	 echo "Curating ${project} with the following heuristic: ${heuristic}"
 	 cat "$@" | while read sub; do
-		 fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject "$sub" --verbose 
+		 fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject "$sub" --verbose
 	 done 2>&1 | tee -a ${logFile}
 else
 	 echo "Starting a dry run for ${project} with the following heuristic: ${heuristic}"
    cat "$@" | while read sub; do
-		 fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject "$sub" --verbose --dry_run
+		 fw-heudiconv-curate --project ${project} --heuristic ${heuristic} --subject "$sub" --verbose --dry-run
    done 2>&1 | tee -a ${logFile}
 fi
 
-fw upload davis/${project} "${logFile}"
+#fw upload davis/${project} "${logFile}"
 
 exit 0
