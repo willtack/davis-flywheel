@@ -8,8 +8,10 @@ def create_key(template, outtype=('nii.gz',), annotation_classes=None):
 # structurals
 t1w = create_key(
     'sub-{subject}/ses-{session}/anat/sub-{subject}_{session}_T1w')
-t2w = create_key(
-     'sub-{subject}/ses-{session}/anat/sub-{subject}_{session}_T2w')
+t2w1 = create_key(
+     'sub-{subject}/ses-{session}/anat/sub-{subject}_{session}_run-01_T2w')
+t2w2 = create_key(
+     'sub-{subject}/ses-{session}/anat/sub-{subject}_{session}_run-02_T2w')
 t2_2d = create_key(
      'sub-{subject}/ses-{session}/anat/sub-{subject}_{session}_acq-2D_T2w')
 t2_cor = create_key(
@@ -86,9 +88,9 @@ def infotodict(seqinfo):
 
     last_run = len(seqinfo)
 
-    info = {t1w:[], t2w:[], t2_2d:[], t2_cor:[],flair:[], flair2:[], tof1: [], tof2: [], tof3: [],
-            pe_rev: [],dwi:[],object_run1: [], object_run2: [], rhyme_run1: [],
-            rhyme_run2: [],scenemem_run1: [], scenemem_run2: [], sentence_run1: [],
+    info = {t1w:[], t2w1:[],t2w2:[], t2_2d:[], t2_cor:[],flair:[], flair2:[], tof1: [],
+            tof2: [], tof3: [], pe_rev: [],dwi:[],object_run1: [], object_run2: [],
+            rhyme_run1: [],rhyme_run2: [],scenemem_run1: [], scenemem_run2: [], sentence_run1: [],
             sentence_run2: [],wordgen_run1: [], wordgen_run2: [], binder_run1: [],
             binder_run2:[],verbgen_run1: [], verbgen_run2: [], rest_run1: [], rest_run2: [],
             bold_tu: [],asl: [], m0: [], mean_perf: [], b0_phase: [], b0_mag: []}
@@ -112,7 +114,7 @@ def infotodict(seqinfo):
         if any(id in protocol for id in ["t1w", "t1", "mprage_t"]):
             get_series(t1w,s)
         elif "t2w_spc" in protocol:
-            get_series(t2w,s)
+            get_both_series(t2w1, t2w2,s)
         elif "t2_2d" in protocol:
             get_series(t2_2d, s)
         elif "t2_tse_coronal" in protocol:
@@ -322,6 +324,7 @@ MetadataExtras = {
        "BackgroundSuppression": True,
        "BackgroundSuppressionNumberPulses": 2,
        "M0scale":10,
+       "M0": 10,
        "LabelingOrientation":"transversal",
        "LabelingDistance":105,
        "LabelingPulseAverageGradient": 10,
